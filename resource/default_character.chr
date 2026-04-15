@@ -1,0 +1,9 @@
+_current_face = "happy"
+display = "女主角"
+
+[face]
+happy = "resource/fc_happy.png"
+sad = "resource/fc_sad.png"
+normal = "resource/fc_normal.png"
+
+[voice]
