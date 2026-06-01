@@ -44,5 +44,24 @@ if exist "%SOURCE_PATH%" (
 ) else (
     echo [错误] 未找到编译产物: %SOURCE_PATH%
     echo        请检查项目是否生成了 %EXE_NAME%
+)
+
+
+echo [编译] 正在编译 engine 的 debug 版本...
+call cargo build
+if errorlevel 1 (
+    echo [错误] 编译失败
+    exit /b %errorlevel%
+)
+set "EXE_DEBUG_NAME=%PACKAGE_NAME%_debug.exe"
+set "SOURCE_DEBUG_PATH=%ENGINE_DIR%\target\debug\%EXE_NAME%"
+set "DEST_DEBUG_PATH=%SCRIPT_DIR%%EXE_DEBUG_NAME%"
+
+if exist "%SOURCE_DEBUG_PATH%" (
+    copy /y "%SOURCE_DEBUG_PATH%" "%DEST_DEBUG_PATH%" > nul
+    echo [成功] 可执行文件已输出至: %DEST_DEBUG_PATH%
+) else (
+    echo [错误] 未找到编译产物: %SOURCE_DEBUG_PATH%
+    echo        请检查项目是否生成了 %EXE_NAME%
     exit /b 1
 )

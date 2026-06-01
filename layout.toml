@@ -1,0 +1,15 @@
+character_twh = [6, 80, 56]
+frame_face_ltwh = [23, 48, 38, 20]
+vertical_dark_edge = 5
+two_character_spec = 20
+x_character_spec = 16
+frame_content_ltwh = [60, 50, 144, 16]
+text_ltwh = [62, 52, 139, 14]
+frame_name_ltwh = [60, 49, 14, 1]
+short_key_ltwh = [60, 66, 144, 1]
+chapter_title_ltwh = [60, 27, 120, 5]
+chapter_subtitle_ltwh = [60, 32, 120, 1]
+paragraph_ltwh = [80, 7, 80, 49]
+history_wh = [90, 50]
+mainmenu_lw = [12, 48]
+mainmenu_popitem_lw = [62, 48]

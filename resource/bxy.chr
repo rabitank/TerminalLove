@@ -1,0 +1,35 @@
+_current_face = "normal"
+display = "白循衍"
+
+[faces]
+ahh = "resource/bxy/bxy_f_ahh.png"
+angry = "resource/bxy/bxy_f_angry.png"
+cry = "resource/bxy/bxy_f_cry.png"
+happy = "resource/bxy/bxy_f_happy.png"
+however = "resource/bxy/bxy_f_however.png"
+lianhong = "resource/bxy/bxy_f_lianhong.png"
+normal = "resource/bxy/bxy_f_normal.png"
+oops = "resource/bxy/bxy_f_oops.png"
+sad = "resource/bxy/bxy_f_sad.png"
+sad_angry = "resource/bxy/bxy_f_sad_angry.png"
+smile = "resource/bxy/bxy_f_smile.png"
+yansu = "resource/bxy/bxy_f_yansu.png"
+haha = "resource/bxy/bxy_f_haha.png"
+
+[stands]
+ahh = "resource/bxy/bxy_ahh.png"
+angry = "resource/bxy/bxy_angry.png"
+cry = "resource/bxy/bxy_cry.png"
+happy = "resource/bxy/bxy_happy.png"
+however = "resource/bxy/bxy_however.png"
+lianhong = "resource/bxy/bxy_lianhong.png"
+normal = "resource/bxy/bxy_normal.png"
+oops = "resource/bxy/bxy_oops.png"
+sad = "resource/bxy/bxy_sad.png"
+sad_angry = "resource/bxy/bxy_sad_angry.png"
+smile = "resource/bxy/bxy_smile.png"
+yansu = "resource/bxy/bxy_yansu.png"
+haha = "resource/bxy/bxy_haha.png"
+
+
+[voice]

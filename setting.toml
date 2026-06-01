@@ -1,20 +1,13 @@
-resolution = [240, 80]
-preprogress_script = []
+resolution = [240, 67]
 is_force_skipable = false
 save_dir = "save"
-entre_script = "resource/script.fs"
-default_bg_img = "resource/default_background_img.png"
+gallery_dir = "resource/gallery"
+about_file = "resource/about.txt"
+entre_script = "resource/terminal_love.fss"
+default_bg_img = ""
 default_face_img = "resource/default_face_img.png"
-
-[layout]
-character_up_edge = 12
-character_size = [56, 56]
-df_size = [40, 20]
-df_lt = [16, 56]
-dark_edge = 6
-two_character_spec = 48
-x_character_spec = 16
-dtf_lr_edge = 32
-dtf_height = 16
-text_lt = [64, 64]
-text_size = [136, 14]
+preprogress_script = ["resource/terminal_love.fs"]
+max_history_ls = 60
+mainmenu_default_bg_img = "resource/main_menu_bg.png"
+mainmenu_default_bgm = "resource/bgm/Bit Space (loopable).mp3"
+mainmenu_session_bg_map = []

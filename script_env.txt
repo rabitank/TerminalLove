@@ -1,42 +1,141 @@
-tmj_app::pages::script_def::text_obj::ypos
-tmj_app::pages::script_def::text_obj::xpos
-tmj_app::pages::script_def::text_obj::content
-tmj_app::pages::script_def::env::bgm
-tmj_app::pages::script_def::env::text
-tmj_app::pages::script_def::env::del_layer
-tmj_app::pages::script_def::env::bgimg_path
-tmj_app::pages::script_def::env::save_to
-tmj_app::pages::script_def::env::add_layer
-tmj_app::pages::script_def::env::display_name
-tmj_app::pages::script_def::env::face_path
-tmj_app::pages::script_def::env::_text_obj
-tmj_app::pages::script_def::var_layer::layers
-tmj_app::pages::script_def::var_layer::source
-tmj_app::pages::script_def::var_layer::visible
-tmj_app::pages::script_def::var_layer::layer_type
-tmj_app::pages::script_def::var_frame::typewriter_enable
-tmj_app::pages::script_def::var_frame::typewriter_speed
-tmj_app::pages::script_def::var_frame::mode
-tmj_app::pages::script_def::var_frame::frame
-tmj_app::pages::script_def::var_frame::typewriter_last_content
-tmj_app::pages::script_def::var_frame::visible
-tmj_app::pages::script_def::var_frame::typewriter_progress
-tmj_app::pages::script_def::var_character_ls::set_characters
-tmj_app::pages::script_def::var_character_ls::character_ls
-tmj_app::pages::script_def::var_paragraph::visible
-tmj_app::pages::script_def::var_paragraph::typewriter_speed
-tmj_app::pages::script_def::var_paragraph::typewriter_last_content
-tmj_app::pages::script_def::var_paragraph::paragraph
-tmj_app::pages::script_def::var_paragraph::content
-tmj_app::pages::script_def::var_paragraph::typewriter_enable
-tmj_app::pages::script_def::var_paragraph::typewriter_progress
-tmj_app::pages::script_def::character::character
-tmj_app::pages::script_def::character::_voices
-tmj_app::pages::script_def::character::display
-tmj_app::pages::script_def::character::_faces
-tmj_app::pages::script_def::character::get_current_stand
-tmj_app::pages::script_def::character::current_face
-tmj_app::pages::script_def::character::say
-tmj_app::audio::transition
-tmj_app::audio::fade_in
-tmj_app::audio::fade_out
+# 脚本 API 符号参考（由 script_sym! 宏登记，启动时自动生成）
+# 格式: [分类] 常量名 → 脚本键    # 说明
+
+## tmj_app::audio
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  member   FADE_IN            → fade_in             # BGM 淡入模式标识
+  member   FADE_OUT           → fade_out            # BGM 淡出模式标识
+  member   TRANSITION         → transition          # BGM 交叉过渡模式标识
+
+## tmj_app::pages::script_def::character
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     CHARACTER          → character           # 可构造的角色类型
+  member   _FACES             → _faces              # 表情名列表
+  member   _STANDS            → _stands             # 立绘表（表情名 → 图片路径）
+  member   _VOICES            → _voices             # 语音表
+  member   DISPLAY            → display             # 角色显示名
+  member   FACE               → face                # 当前表情名
+  function DOWN               → down                # 添加向下偏移动画
+  function FADE_IN            → fade_in             # 入场：自右向左滑入 8 格并淡入到场上位置
+  function FADE_OUT           → fade_out            # 退场：淡出并从场上列表移除，其余角色平滑移位
+  function LEFT               → left                # 添加向左偏移动画
+  function RIGHT              → right               # 添加向右偏移动画
+  function SADD               → sadd                # 角色说话,直接追加到对话框（立绘、文本、语音）
+  function SAY                → say                 # 角色说话（立绘、文本、语音）
+  function TO_FACE            → to_face             # 切换表情，带过度动画
+  function UP                 → up                  # 添加向上偏移动画
+
+## tmj_app::pages::script_def::env
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  member   BEHAVIOURS_MAP     → behaviours_map      # 对话场景 Behaviour 映射表
+  member   BGIMG_PATH         → bgimg_path          # 默认背景图路径（全局字符串）
+  function ADD_LAYER          → add_layer           # 向 layer_ls 添加图层
+  function DEL_LAYER          → del_layer           # 从 layer_ls 移除图层
+  function DISPLAY_NAME       → display_name        # 显示名称标签
+  function LOG                → log                 # 写入日志
+  function REBUILD            → rebuild             # 重新预处理 setting 指定的 fs 脚本
+  function SAVE_TO            → save_to             # 保存游戏到槽位
+  function SEE                → see                 # 注视/看向效果
+  function TADD               → tadd                # 在对话框追加显示文本
+  function TEXT               → text                # 在对话框显示文本
+  function VOICE              → voice               # 播放语音
+
+## tmj_app::pages::script_def::layer
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     LAYER              → layer               # 可构造的动态图层类型
+  member   DATA               → data                # 资源/效果数据（图路径或效果类型名）
+  member   H                  → h                   # 图层高度
+  member   LAYER_TYPE         → layer_type          # 图层类型：image 或 effect
+  member   M_VISIBLE          → m_visible           # 图层是否可见
+  member   NAME               → name                # 图层名称（唯一键）
+  member   W                  → w                   # 图层宽度
+  member   X                  → x                   # 图层左上角 X
+  member   Y                  → y                   # 图层左上角 Y
+  member   Z_DEEP             → z_deep              # 绘制深度 z_index
+  function HIDE               → hide                # 隐藏图层（可带淡出时长）
+  function RESET              → reset               # 重置动画状态（effect 类型专用）
+  function SET                → set                 # 设置图层数据（字符串参数）
+  function SHOW               → show                # 显示图层（可带淡入时长）
+
+## tmj_app::pages::script_def::text_obj
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  member   CONTENT            → content             # 文本对象内容
+  member   XPOS               → xpos                # 文本对象 X 坐标
+  member   YPOS               → ypos                # 文本对象 Y 坐标
+
+## tmj_app::pages::script_def::var_bg
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     BG                 → bg                  # 背景全局对象
+  member   M_IMAGE            → m_image             # 当前背景图路径
+  member   M_IS_EDGE          → m_is_edge           # 是否显示黑边
+  function HIDE_EDGE          → hide_edge           # 隐藏上下黑边遮罩
+  function SET                → set                 # 立即切换背景图
+  function SHOW_EDGE          → show_edge           # 显示上下黑边遮罩
+  function TRANS_TO           → trans_to            # 渐变过渡到新背景图
+
+## tmj_app::pages::script_def::var_bgm
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     BGM                → bgm                 # 背景音乐全局对象
+  member   M_SOURCE           → m_source            # 当前 BGM 资源路径
+  function SET                → set                 # 设置并播放 BGM
+  function STOP               → stop                # 停止 BGM（可淡出）
+
+## tmj_app::pages::script_def::var_chapter
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     CHAPTER            → chapter             # 章节标题全局对象
+  function SHOW_SUB_TITLE     → show_sub_title      # 显示章节副标题
+  function SHOW_TITLE         → show_title          # 显示章节主标题
+
+## tmj_app::pages::script_def::var_character_ls
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     CHARACTER_LS       → character_ls        # 场上角色列表全局对象
+  function CLEAR              → clear               # 清空场上角色（可带淡出时长）
+  function SET_CHARACTERS     → set_characters      # 设置当前出场的角色表
+
+## tmj_app::pages::script_def::var_env_effect
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     ENV_EFFECT         → env_effect          # 环境音效全局对象
+  member   M_SOURCE           → m_source            # 当前环境音资源路径
+  function SET                → set                 # 设置并播放环境音
+  function STOP               → stop                # 停止环境音（可淡出）
+
+## tmj_app::pages::script_def::var_frame
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     FRAME              → frame               # 对话框全局对象
+  member   M_REV_STYLE        → m_rev_style         # 是否反转色彩
+  member   MODE               → mode                # 对话框模式（如 normal）
+  member   SPEAKER            → speaker             # 当前说话人名称
+  member   VISIBLE            → visible             # 对话框是否可见
+  function HIDE               → hide                # 隐藏对话框
+  function REV_STYLE          → rev_style           # 反转frame 前后色
+  function SET_MODE           → set_mode            # 设置对话框模式
+  function SHOW               → show                # 显示对话框
+
+## tmj_app::pages::script_def::var_layer_ls
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     LAYER_LS           → layer_ls            # 动态图层列表全局对象
+
+## tmj_app::pages::script_def::var_paragraph
+  分类       常量名                → 脚本键                 # 说明
+  ────────────────────────────────────────────────────────────────────────
+  type     PARAGRAPH          → paragraph           # 旁白/段落全局对象
+  member   M_CONTENT          → m_content           # 段落文本内容
+  member   M_VISIBLE          → m_visible           # 段落框是否可见
+  function CLEAR              → clear               # 清空段落内容
+  function HIDE               → hide                # 隐藏段落框
+  function NEW                → new                 # 新页并设置文本
+  function PRINT              → print               # 追加打印文本
+  function SHOW               → show                # 显示段落框
+

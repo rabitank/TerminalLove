@@ -1,0 +1,20 @@
+_current_face = "normal"
+display = "艾可思"
+
+[faces]
+angry = "resource/mc/mc_f_angry.png"
+ganga = "resource/mc/mc_f_ganga.png"
+huangzhang = "resource/mc/mc_f_huangzhang.png"
+yansu = "resource/mc/mc_f_yansu.png"
+cry = "resource/mc/mc_f_cry.png"
+however = "resource/mc/mc_f_however.png"
+sad = "resource/mc/mc_f_sad.png"
+oops = "resource/mc/mc_f_oops.png"
+happy = "resource/mc/mc_f_happy.png"
+smile = "resource/mc/mc_f_smile.png"
+normal = "resource/mc/mc_f_normal.png"
+quest = "resource/mc/mc_f_quest.png"
+
+[stands]
+
+[voice]
