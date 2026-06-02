@@ -1,67 +1,56 @@
 @echo off
 setlocal enabledelayedexpansion
 
-REM 获取脚本所在目录
 set "SCRIPT_DIR=%~dp0"
 set "ENGINE_DIR=%SCRIPT_DIR%engine"
 
-REM 检查 engine 目录和 Cargo.toml
 if not exist "%ENGINE_DIR%" (
-    echo [错误] 找不到 engine 目录: %ENGINE_DIR%
+    echo [ERROR] engine directory not found: %ENGINE_DIR%
     exit /b 1
 )
 if not exist "%ENGINE_DIR%\Cargo.toml" (
-    echo [错误] engine 目录下没有 Cargo.toml
+    echo [ERROR] Cargo.toml not found in engine directory
     exit /b 1
 )
 
-echo [编译] 正在编译 engine 的 release 版本...
+echo [BUILD] Building release...
 cd /d "%ENGINE_DIR%"
-call cargo build --release
+call cargo build --release -p tmj_terminal -p tmj_egui
 if errorlevel 1 (
-    echo [错误] 编译失败
+    echo [ERROR] Build failed
     exit /b %errorlevel%
 )
 
-REM 从 Cargo.toml 获取包名
-set "PACKAGE_NAME="
-for /f "tokens=2 delims== " %%a in ('findstr /i "^name =" Cargo.toml') do (
-    set "PACKAGE_NAME=%%~a"
-    goto :found
-)
-:found
-if "%PACKAGE_NAME%"=="" (
-    set "PACKAGE_NAME=engine"
-)
+set "RELEASE_DIR=%ENGINE_DIR%\target\release"
+set "OK=0"
 
-set "EXE_NAME=%PACKAGE_NAME%.exe"
-set "SOURCE_PATH=%ENGINE_DIR%\target\release\%EXE_NAME%"
-set "DEST_PATH=%SCRIPT_DIR%%EXE_NAME%"
-
-if exist "%SOURCE_PATH%" (
-    copy /y "%SOURCE_PATH%" "%DEST_PATH%" > nul
-    echo [成功] 可执行文件已输出至: %DEST_PATH%
+if exist "%RELEASE_DIR%\tmj_terminal.exe" (
+    copy /y "%RELEASE_DIR%\tmj_terminal.exe" "%SCRIPT_DIR%\tmj.exe" > nul
+    if not errorlevel 1 (
+        echo [OK] tmj_terminal.exe -^> tmj.exe
+        set "OK=1"
+    ) else (
+        echo [ERROR] Failed to copy tmj_terminal.exe
+    )
 ) else (
-    echo [错误] 未找到编译产物: %SOURCE_PATH%
-    echo        请检查项目是否生成了 %EXE_NAME%
+    echo [ERROR] tmj_terminal.exe not found
 )
 
-
-echo [编译] 正在编译 engine 的 debug 版本...
-call cargo build
-if errorlevel 1 (
-    echo [错误] 编译失败
-    exit /b %errorlevel%
-)
-set "EXE_DEBUG_NAME=%PACKAGE_NAME%_debug.exe"
-set "SOURCE_DEBUG_PATH=%ENGINE_DIR%\target\debug\%EXE_NAME%"
-set "DEST_DEBUG_PATH=%SCRIPT_DIR%%EXE_DEBUG_NAME%"
-
-if exist "%SOURCE_DEBUG_PATH%" (
-    copy /y "%SOURCE_DEBUG_PATH%" "%DEST_DEBUG_PATH%" > nul
-    echo [成功] 可执行文件已输出至: %DEST_DEBUG_PATH%
+if exist "%RELEASE_DIR%\tmj_egui.exe" (
+    copy /y "%RELEASE_DIR%\tmj_egui.exe" "%SCRIPT_DIR%\tmj_gui.exe" > nul
+    if not errorlevel 1 (
+        echo [OK] tmj_egui.exe -^> tmj_gui.exe
+        set "OK=1"
+    ) else (
+        echo [ERROR] Failed to copy tmj_egui.exe
+    )
 ) else (
-    echo [错误] 未找到编译产物: %SOURCE_DEBUG_PATH%
-    echo        请检查项目是否生成了 %EXE_NAME%
+    echo [ERROR] tmj_egui.exe not found
+)
+
+if "%OK%"=="0" (
+    echo [ERROR] No artifacts were copied
     exit /b 1
 )
+
+echo [DONE] Artifacts output to: %SCRIPT_DIR%
