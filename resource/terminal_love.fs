@@ -3306,7 +3306,7 @@ text 真是辛苦……
 
 #
 bxy.to_face however
-bxy.say "知道我幸苦就主动交作业啊……"
+bxy.say "知道我辛苦就主动交作业啊……"
 
 #
 bxy.fade_out
@@ -4112,7 +4112,7 @@ mc.say ……唯独现在就放过我吧，今天已经够混乱了。
 voice "resource/voice/sliding_door_open.ogg"
 bg.trans_to "resource/bg/yangtai.png" 1.0 //主角在阳台吹风,参考徘徊在辅导教室
 bgm.set "resource/bgm/Midnight_Celeste.mp3" fade_in 2.0 0.8
-env_effect.set "resource/env_effect/summer_streets4.mp3" fade_in 2.0 0.7
+env_effect.set "resource/env_effect/summer_streets4.ogg" fade_in 2.0 0.5
 fc.fade_out
 text 本来还想顺势打开电脑的，但还是去阳台透气了，房间里的空调风加冰棍弄得我不太舒服。
 
@@ -4131,7 +4131,7 @@ fc.say 呐，艾可思？
 #
 // bg.trans_to "resource/cg/阳台_1.png" //两个人
 voice "resource/voice/sliding_door_open.ogg"
-text 夏界小心翼翼地趴到我身边。
+text 夏界也来到阳台，小心翼翼地趴到我身边。
 
 #
 fc.say 这样就好了吗？
@@ -4140,8 +4140,8 @@ fc.say 这样就好了吗？
 mc.say 为什么不行呢。
 
 #
-once fc.face sad
-fc.say 是因为我导致你有点顾虑……
+once fc.face quest
+fc.say 难道……是因为我导致你有点顾虑……
 
 #
 mc.say 哈？？不不不是，你想太多了。
@@ -4180,7 +4180,11 @@ text 是那种老妈子的心态啊，传出去也许会被人叫做圣母。
 
 #
 once fc.face byzk
-fc.say 第一次见到你时简直要怀疑你有自闭症了，你就那样盯着屏幕脸上也没有表情，虽然能够好好说话但是却不会和我主动交流。
+fc.say 第一次见到你时简直要怀疑你有自闭症了。
+
+#
+once fc.face however
+fc.say 你就那样盯着屏幕脸上也没有表情，虽然能够好好说话但是却不会和我主动交流。
 
 #
 text 夏界自顾自地直接说起了以前的事。
@@ -4241,7 +4245,7 @@ mc.say 听起来像是我快死了。
 
 #
 once fc.face yansu
-fc.say 我的意思就是……上大学后我就不能陪在你身边了，所以离开了我就会变成网虫的你肯定会自我封闭的。
+fc.say 我的意思就是……上大学后我就不能陪在你身边了，所以离开了我就会变成网络蠹虫的你肯定会自我封闭的。
 
 #
 text ……好可疑……是不是太担心过头了。
@@ -4651,7 +4655,7 @@ text …
 bg.trans_to "resource/cg/road.png" // 傍晚的绿色的林荫路,3个人正面朝向玩家走着
 bg.hide_edge
 bgm.set "resource/bgm/Green_Walking.mp3" fade_in 2.0 0.9
-env_effect.set "resource/env_effect/summer_streets4.mp3"
+env_effect.set "resource/env_effect/summer_streets4.ogg" fade_in 1.0 0.5 
 text ……
 
 #
@@ -5184,7 +5188,7 @@ bxy.to_face normal
 bxy.say 其实很无聊的，妹妹明年就要中考了，我准备在家辅导她。
 
 #
-mc.say 好幸苦。
+mc.say 好辛苦。
 
 #
 bxy.to_face lianhong
@@ -7550,7 +7554,7 @@ mc.say "所以我们这里一连上网络就被它入侵了吗。"
 
 #
 fc.to_face yinchen
-fc.say "……嗯。实际上当时已经服务器系统已经被完全控制了。"
+fc.say "……嗯。实际上，当时的服务器系统已经被完全控制了。"
 
 #
 fc.say "我的物理预备方案" -> wait 0.8 -> fc.sadd "几乎快要失效……"
