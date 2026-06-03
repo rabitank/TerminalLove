@@ -1,5 +1,6 @@
 resolution = [240, 67]
 is_force_skipable = false
+font = "resource/font/MapleMono-NF-CN-Regular.ttf"
 save_dir = "save"
 gallery_dir = "resource/gallery"
 about_file = "resource/about.txt"
