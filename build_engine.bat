@@ -15,7 +15,7 @@ if not exist "%ENGINE_DIR%\Cargo.toml" (
 
 echo [BUILD] Building release...
 cd /d "%ENGINE_DIR%"
-call cargo build --release -p tmj_terminal -p tmj_egui
+call cargo build --release -p tmj_terminal -p tmj_wgpu
 if errorlevel 1 (
     echo [ERROR] Build failed
     exit /b %errorlevel%
@@ -36,16 +36,16 @@ if exist "%RELEASE_DIR%\tmj_terminal.exe" (
     echo [ERROR] tmj_terminal.exe not found
 )
 
-if exist "%RELEASE_DIR%\tmj_egui.exe" (
-    copy /y "%RELEASE_DIR%\tmj_egui.exe" "%SCRIPT_DIR%\tmj_gui.exe" > nul
+if exist "%RELEASE_DIR%\tmj_wgpu.exe" (
+    copy /y "%RELEASE_DIR%\tmj_wgpu.exe" "%SCRIPT_DIR%\tmj_wgpu.exe" > nul
     if not errorlevel 1 (
-        echo [OK] tmj_egui.exe -^> tmj_gui.exe
+        echo [OK] tmj_wgpu.exe -^> tmj_wgpu.exe
         set "OK=1"
     ) else (
-        echo [ERROR] Failed to copy tmj_egui.exe
+        echo [ERROR] Failed to copy tmj_wgpu.exe
     )
 ) else (
-    echo [ERROR] tmj_egui.exe not found
+    echo [ERROR] tmj_wgpu.exe not found
 )
 
 if "%OK%"=="0" (

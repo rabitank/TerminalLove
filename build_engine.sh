@@ -15,7 +15,7 @@ fi
 
 echo "🔨 正在编译 release 版本..."
 cd "$ENGINE_DIR"
-cargo build --release -p tmj_terminal -p tmj_egui
+cargo build --release -p tmj_terminal -p tmj_wgpu
 
 if [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "win32" ]] || [[ "$OSTYPE" == "cygwin" ]]; then
     EXE_EXT=".exe"
@@ -36,11 +36,11 @@ else
     echo "❌ 未找到编译产物: $src"
 fi
 
-src="$RELEASE_DIR/tmj_egui$EXE_EXT"
-dst="$SCRIPT_DIR/tmj_gui$EXE_EXT"
+src="$RELEASE_DIR/tmj_wgpu$EXE_EXT"
+dst="$SCRIPT_DIR/tmj_wgpu$EXE_EXT"
 if [[ -f "$src" ]]; then
     cp "$src" "$dst"
-    echo "✅ tmj_egui$EXE_EXT -> tmj_gui$EXE_EXT"
+    echo "✅ tmj_wgpu$EXE_EXT -> tmj_wgpu$EXE_EXT"
     success=$((success + 1))
 else
     echo "❌ 未找到编译产物: $src"
