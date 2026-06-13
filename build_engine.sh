@@ -37,10 +37,11 @@ else
 fi
 
 src="$RELEASE_DIR/tmj_wgpu$EXE_EXT"
-dst="$SCRIPT_DIR/tmj_wgpu$EXE_EXT"
+dst="$SCRIPT_DIR/tmj_gui$EXE_EXT"
 if [[ -f "$src" ]]; then
     cp "$src" "$dst"
-    echo "✅ tmj_wgpu$EXE_EXT -> tmj_wgpu$EXE_EXT"
+    echo "✅ tmj_wgpu$EXE_EXT -> tmj_gui$EXE_EXT"
+
     success=$((success + 1))
 else
     echo "❌ 未找到编译产物: $src"

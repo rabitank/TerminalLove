@@ -13,25 +13,10 @@ layer_image = layer "LAYER_IMAGE" image 1001 ""  // 在一开始就创建好免�
 
 #
 bgm.set "resource/bgm/peaceful_intro.ogg" fade_in 1.0
-text "我正在观看。"
+text "观看媒体内容是现代社会每个人都会做的事情。"
 
 #
-text "观看媒体是现代社会每个人都会做的事情。"
-
-#
-text "回到家，打开互联网，看视频。"
-
-#
-text "一般的情况都是使用手机App刷短视频吧?"
-
-#
-text "除此之外有的人会看小说。"
-
-#
-text "有的人会看动漫。"
-
-#
-text "有的人只是看着首页推送。"
+text "小说 动漫 短视频 或者社交媒体"
 
 #
 text "而在这些人之中的大部分人，是不会发表意见的，甚至不会去看评论区。也就是纯粹的看着而已"
@@ -46,28 +31,19 @@ text "这些不参与讨论的人，也就是沉默的大多数，其实谁也�
 text "因为沉默所以没有留下任何痕迹。作为沉默的观众，根本不能察觉到其他沉默的观众的存在。"
 
 #
-text "无论对着媒体内容有怎样的态度，只要不说话，别人根本无法知晓你的存在，不知道你在看着什么"
+text "……无论对着媒体内容有怎样的态度"
 
 #
-text "如果媒介是互联网，那越吵闹，沉默的观众就越孤独。"
-
-#
-text "沉默的观众仿佛游离于世界的边缘。"
+text "……沉默的观众仿佛游离于世界的边缘。"
 
 #
 text "但也是最纯粹的观众。"
 
 #
-text "我姑且是其中之一。"
+text "当在观看媒体时,观众究竟发生了什么呢?"
 
 #
-text "但是当在观看媒体时,我究竟发生了什么呢?"
-
-#
-text "人类可以利用石板，纸币，硬盘记录东西，创造对现实的拟象。"
-
-#
-text "其他人类就能通过观看以打法自己平庸的时间。"
+text "人类通过观看以打法自己平庸的时间。"
 
 #
 text "或者说？短暂的附着到媒介身上？"
@@ -79,22 +55,13 @@ text "小说读者的世界里这样的'附着'体验会体现成沉浸感。"
 text "暂时脱离屏幕前的自己的肉体，精神进入文字中。"
 
 #
-text "暂时忘记自己的存在，自己的处境和困难，自己的各种事情。"
+text "暂时忘记自己的存在，自己的处境和困难。"
 
 #
 text "凭依在媒体内容里，因为媒体是精心安排的，所以只要顺滑地观看就可以体验到特别的感受。不需要自己费力"
 
 #
-text "就像知识科普视频这种也是哦?"
-
-#
-text "一般来说知识科普也不需要特别动脑吧?只需要专心接收媒体内容的信息，不用思考，不用记录"
-
-#
-text "我沉迷于观看。"
-
-#
-text "我觉得观看大概是，把自己的时间，替换为别人思考和创造的媒体内容。"
+text "随心所欲接收媒体内容的信息，不用思考，不用记录"
 
 #
 text "好的媒体内容能让观众能在另一个精彩有趣的世界体验一辈子都没办法遇见的刺激经历。"
@@ -103,10 +70,7 @@ text "好的媒体内容能让观众能在另一个精彩有趣的世界体验�
 text "也许这么说有些夸张了。"
 
 #
-text "现在的媒体媒介不过是用上视觉，听觉。"
-
-#
-text "小说，电影，动漫，音乐，杂谈和ASMR。或许还有VR设备平台的各种媒体？"
+text "现在的媒体媒介不过是用上视觉，听觉。或许还有VR设备平台？"
 
 #
 text "但是没关系，科技在进步，表现和体验故事的方法越来越多。"
@@ -119,16 +83,14 @@ text "那个时候又会有怎样的体验呢?作为观众实在是莫大的幸�
 
 #
 bgm.stop 1.0
+bg.trans_to "resource/cg/computer.png" 2.0
 text "我对此期待过，直到我发现了一个问题。"
 
 #
 text "无论如何都甩不掉的想法。"
 
 #
-text "如同诅咒一样。"
-
-#
-text "阅读故事的人始终知道自己在阅读故事。"
+text "阅读故事的人始终知道自己在阅读故事，所谓的‘自己’并未发生任何改变。"
 
 #
 text "只要还记得这一点，无论怎样的刺激都会变得平淡。"
@@ -137,10 +99,7 @@ text "只要还记得这一点，无论怎样的刺激都会变得平淡。"
 text "是呢，沉静感，代入感，巨大的黑暗影院和大型音响，黑暗的房间和大屏幕，减噪，360°环绕，覆盖整个面部的VR"
 
 #
-text "作为观众的人类付出了多少努力来避免美梦被打扰"
-
-#
-text "所谓的观众也许会沉溺在媒体内容中，但是总会有一个时刻意识到了媒体之外自己的存在"
+text "要我说，都只是在更好地自欺欺人。"
 
 #
 text "没有人会像害怕死一样害怕在游戏里被击杀。因为缺少了这样的恐惧，游戏就只能是游戏。"
@@ -149,33 +108,44 @@ text "没有人会像害怕死一样害怕在游戏里被击杀。因为缺少�
 text "幻象不因为幻象表现得很有真实感就不是幻象了。"
 
 #
+text "如同诅咒一样。"
+
+#
+text "所谓的观众也许会沉溺在媒体内容中，但是……"
+
+#
 text "只要记得自己观众的身份。面前的画面无论再真实也都只是拟象。"
 
 #
-text "因此有的人也会对小说游戏无感，觉得是很平淡的体验。"
+text "乐于体验媒体的人，只是喜欢扮演。"
 
 #
-text "而乐于体验媒体的人，也只是在忘记和想起观众身份的边界间游离而已。"
+text "或者说只是在玩弄这种边界吧?"
 
 #
-text "或者说只是在玩弄这种边界吧?正是因为知道自己观众的身份，才能有安全感，放心地沉浸到媒体内容中去"
+text "为了能更好地享受媒体内容，假装自己忘记了自己。"
 
 #
-text "为了能更好地享受媒体内容，假装自己忘记了自己，这样。不然就会真的以为自己被杀了"
+text "这样。不然就会真的以为自己死掉了。"
 
 #
-text "也就是说，观众只是在角色扮演而已。扮演战士，博主，学者，二次元迷，某人的粉丝，氛围音乐享受者，哲人，法师，后宫主角，获得幸福之人"
+text "……或者说假装自己活着？"
+
+#
+text "……………………"
 
 #
 bgm.set "resource/bgm/abaddons_abyss.ogg" fade_in 4.0 0.8
-text "现在，作为观众的我。"
+text "眼前的画面是某个视频网站。"
 
 #
-bg.trans_to "resource/cg/computer.png" 2.0
-text "眼前的画面，是某个视频网站。"
+text "已经看了相当之久。"
 
 #
-text "已经看了相当之久"
+text "啊大概是…………什么时候开始的？"
+
+#
+text "好像昨天下午就在电脑前了……"
 
 #
 text "有点烦躁。"
@@ -190,7 +160,7 @@ text "逐渐失去了，作为观众的耐心，对内容感到乏味。"
 text "沉浸感在渐渐消失，越来越察觉到，自己作为观众坐在电脑前这一事实。"
 
 #
-text "烦躁。烦躁。烦躁。滑动。滑动。滑动。"
+text "……………………"
 
 #
 text "但是不想关掉。"
@@ -199,46 +169,31 @@ text "但是不想关掉。"
 text "这样直接中断自己沉溺的状态好像是种可怕的事情。"
 
 #
-text "我大概明白，现在的自己究竟是什么状态。"
-
-#
 text "屏幕之外的我的存在感越来越强了"
 
 #
 text "时而能察觉到，自己的问题。"
 
 #
-text "关掉并离开视频网站，媒体，互联网，拟象，虚拟世界需要勇气。"
-
-#
-text "回归的勇气，停下来面对周遭和现实空洞之处的勇气，把自己的本体投入到需要亲身经历的生活的勇气。"
-
-#
-text "我好像失去了这样的能力，是从什么时候开始的呢？"
+text "好像失去了某种能力……欸？是什么呢？"
 
 #
 text "不想关掉，所以只能一直看下去。"
 
 #
-text "滑动. 滑动. 滑动。"
+text "一直看下去。"
 
 #
 text "一直看下去。"
 
 #
-text "滑动. 滑动. 滑动。"
+text "一直看下去。"
 
 #
 text "一直看下去。"
 
 #
-text "滑动. 滑动. 滑动。"
-
-#
 text "一直看下去。"
-
-#
-text "滑动. 滑动. 滑动。"
 
 #
 text "一直看下去。"
@@ -256,10 +211,18 @@ text "一直看下去。"
 text "一直看下去。"
 
 #
-text "一直看下去。一直看下去。一直看下去。"
+text "一直看下去。"
 
 #
-text "一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。一直看下去。" 40
+text "一直看下去。"
+#
+text "一直看下去。"
+#
+text "一直看下去。"
+#
+text "一直看下去。"
+#
+text "一直看下去。"
 
 #
 bgm.set "resource/bgm/Mauve.mp3" "fade_in" 2.0 0.7
@@ -267,37 +230,36 @@ bg.set "resource/bg/bedroom_night.png"
 knock = "resource/voice/knock.mp3"
 voice knock
 set mc.face normal
-text "艾~可~思~！" "???" -> wait 1.0 -> mc.sadd "呜啊啊啊啊！！"
+text "艾~可~思~！" "???" -> wait 1.0 -> set mc.face oops -> mc.say "呜啊啊啊啊！！"
 
 #
 text "艾可思同学在家的吗？" "???"
 
 #
-once mc.face however
+set mc.face normal
 mc.say "是夏界啊。"
 
 #
-text "...还以为会就这样疯掉。"
+text "…………"
 
 #
-text "刚才好像，因为胡思乱想导致的陷入了很恐怖的状态。"
+text "………"
+
+#
+text "刚才……好恐怖……"
 
 #
 lock_door = "resource/voice/lock_door.mp3"
 voice lock_door
 set fc.face normal
-character_ls.set_characters fc
+fc.fade_in
 mc.say "那个……今天有什么事？"
-
-#
-set fc.face happy
-fc.say "昨天真的打扰啦。今天只是来找你玩哒~"
 
 #
 text 夏界是上星期搬来的对门邻居。
 
 #
-text 搬过来的第二天，也就是初升高开学的日子，我出门时正好遇见她也正要出门。
+text 搬过来的第二天，也就是初升高开学的日子，我出门时正好遇见她。
 
 #
 text 结果从出门，到上学，再到进校门。都微妙地同步了。
@@ -312,61 +274,88 @@ text 太好了不是被跟踪呢，原来是同班啊。
 text 哈哈。
 
 #
-text 太搞笑了， -> wait 0.8 -> tadd 同班同学的美少女要住在我对门三年什么的，你以为这是什么旮旯给木吗？
+text 同班同学要住在我对门三年，这是什么旮旯给木吗？
 
 #
-text 一个星期以来其实交流有限，虽然我们有同时出门的默契，但是夏界也只是偶尔对我打招呼而已。
+text 不过。
+
+#
+text 一个星期以来夏界也只是偶尔对我打招呼而已。
 
 #
 text 直到昨天之前，我们之间没有实际的交集。
 
 #
-text 实际上……昨天的情况是……
+text 实际上……昨天的情况是
 
 #
-text 夏界弄丢了家门钥匙，导致昨晚她以每秒30次的速度按我家门铃，哭着表示希望在我家住一晚
-
-#
-set fc.face normal
-mc.say 啊昨天的事…… -> wait 0.9 -> mc.sadd 没什么打扰的……你先进来吧。
-
-#
-text 不打扰？哈哈
+text 她弄丢了家门钥匙，导致昨晚她以每秒30次的速度按我家门铃，希望在我家住一晚
 
 #
 text 我要打扫腾出房间从柜子里找床单被套枕头，考虑到她晚饭没吃还得煮面，折腾到很晚夏界洗澡时间还很长一直占着卫生间。
 
 #
-text 虽然对方是女生，虽然是对门邻居，虽然是同班……但是，但是还是完全适应不了家里多个人。
+text 完全适应不了家里多个人。
 
 #
-fc.say "打扰啦~"
+fc.say "昨天真的打扰了，请你务必收下这个。"
+
+#
+text 原来她拎着一打可口可乐。
+
+#
+text ……
+
+#
+fc.to_face normal
+mc.say 啊昨天的事…… -> wait 0.9 -> mc.sadd 没什么打扰的……你先进来吧。
+
+#
+text 哈哈那说啥了
+
+#
+fc.to_face haha
+fc.say "今天就只是来找你玩~"
 
 #
 text 夏界走了进来，自然地就朝我的电脑望去。
 
 #
-fc.say "你又在上网吗？" -> wait 1.0 -> fc.to_face oops -> fc.sadd "2个小时的解说，居然还有这种视频啊,唉，唉这不是已经放到一半了吗？？"
+fc.to_face normal
+fc.say "唔哦…………"
 
 #
-set fc.face normal
+fc.say "你又在上网吗？" -> wait 1.0 -> fc.to_face oops -> fc.sadd "3个小时的解说，居然还有这种视频啊"
+
+#
+fc.to_face normal
 mc.say 只是……打发时间？有什么问题吗？
 
 #
-once fc.face however
+fc.say "啊啊没问题没问题，只是觉得……"
+
+#
+fc.to_face however
 fc.say 你好闲，作为高中生有点太闲了。我个人还是希望你看点擦边舞蹈。
 
 #
+fc.to_face normal
 text 夏界一屁股坐到了我的电脑椅上。
 
 #
 fc.say 你平时都玩些什么？
 
 #
-mc.say 那来打游戏吧，或者你喜欢看动漫吗？
+mc.say "你说玩什么……其实也没什么玩的……"
+
+#
+mc.say 你打游戏吗，或者你喜欢看动漫吗？
 
 #
 text 家里没什么东西，我能想到的就只有网络娱乐了。
+
+#
+mc.say "……"
 
 #
 fc.say 不要。
@@ -375,16 +364,22 @@ fc.say 不要。
 mc.say "……"
 
 #
-text 那我该说些什么，同班女生大晚上跑过来玩是什么意思？
+text 好烦人。
+
+#
+text 那我该说些什么……说到底同班女生大晚上跑过来玩是什么意思？
 
 #
 fc.fade_out
-text "…………她人呢？怎么一转眼就不见了，难道是灵异事件？"
+text "…………她人呢？"
+
+#
+text 怎么一转眼就不见了，难道是灵异事件？
 
 #
 fc.fade_in
 once mc.face oops
-mc.say 喂不要去翻我的硬盘! -> wait 0.6 -> set mc.face angry -> mc.sadd 不准看！杀了你哦！！
+mc.say 喂喂不要去翻我的硬盘…… -> wait 0.9 -> mc.sadd 不准翻那个文件夹……杀了你哦
 
 #
 once fc.face huaji
@@ -413,29 +408,38 @@ fc.to_face normal
 text 不应该是因为一个人独居所以晚饭总是磨蹭然后我自然地煮碗面吃完后把她送走吗？
 
 #
-mc.say 那我去煮碗面。
+mc.say 啊那这样，我去煮碗面。
 
 #
 fc.to_face however
-fc.say 没有在听人说话呢。
+fc.say 我说过我吃过晚饭了吧……没有在听人说话呢。
+
+#
+text 才不会给你煮面。
 
 #
 mc.say 所以夏界同学来我家到底是想做什么呢?
 
 #
 fc.to_face soft_smile
-fc.say 别把人说得有什么目的一样啊~同学串门很普通，我真的只是来玩的。
+fc.say 别把人说得有什么目的一样啊~同学串门很普通，我真的只是来道谢顺便找你玩的。
 
 #
 fc.to_face quest 0.8
 fc.say 普通地聊天?
 
 #
-mc.say 不,完全没有什么想聊的
+fc.say 不可以吗？
+
+#
+mc.say 不,完全没有什么想聊的。 -> wait 1.2 fc.to_face normal
 
 #
 fc.to_face however
 fc.say 就算是对方是同龄人,还是异性?你就没有一点表达欲吗?
+
+#
+text 没有表达欲真是抱歉啊……
 
 #
 once mc.face however
@@ -446,24 +450,41 @@ fc.to_face haha
 fc.say 啊，说到吃饭。那来压马路吧！
 
 #
-fc.to_face yansu
+once mc.face oops
 mc.say "为啥?!不想去"
 
 #
+fc.to_face yansu
 fc.say "男孩子不可以说不行"
 
 #
+mc.say 男孩子当然可以说不行。
+
+#
+text ………
+
+#
+text ……
+
+#
 fc.to_face normal
-fc.say "就附近走走不好吗？"
+fc.say "就附近走走？"
 
 #
 text …………
 
 #
-mc.say "……也不是不行"
+text ………
+
+#
+text 也许确实该出去走走了……
+
+#
+mc.say "……好吧"
 
 #
 bg.trans_to "" 1.0
+fc.fade_out
 text …………
 
 #
@@ -496,7 +517,8 @@ text 开发区因为是沿江的平原地形，常年都有江上的风吹过来
 text 此时街上也没什么人。
 
 #
-fc.say 好安静，好黑。
+fc.fade_in
+fc.say 好安静。
 
 #
 mc.say 对啊，所以为什么要出来压马路？
@@ -520,7 +542,7 @@ mc.say 时间安排上比预想中轻松多了，课业也不算重。
 text 放学意外的早，周末能休息，作业虽然更多了但是对我也不算难。
 
 #
-fc.say 是吗？你原来的城市高中应该以军事化管理出名吧？
+fc.say 是吗？你老家那的高中应该很严格吧？
 
 #
 once mc.face quest
@@ -543,7 +565,7 @@ text 小时候的记忆很模糊，我只知道初中开始就一个人住了。
 text 父母当然是在世，但是因为工作原因已经很久没见过了。
 
 #
-mc.say 我也可以猜吗？你一个人租房住，应该是从城市另一边的A中升过来的吧？
+mc.say 我也可以猜吗？你一个人租房住，应该是从城市另一边的A中升过来的？
 
 #
 mc.say 父母工作忙没办法调整自己的住所，只能让你一个人先住过来。
@@ -561,7 +583,11 @@ fc.say "倒不是这个原因。"
 fc.say 爸妈，去世很久了。
 
 #
-text 我在说什么。
+bgm.stop
+text …………
+
+#
+text 我问了什么。
 
 #
 fc.say 一个人在家附近上完初中后要升学，我家离这里有点过于远了，就把房子卖了，在这里租房。
@@ -609,7 +635,10 @@ mc.say 抱团,你说的抱团是指？
 fc.say 各种意义上的生活互助哦
 
 #
-fc.say 过去一周我有观察你。你写作业很快吧？每次放学时候基本上都要把所有作业做完了，但是语文作业会被卡住。
+fc.say 过去一周我有观察你。你写作业很快，每次放学时候基本上都要把所有作业做完了。
+
+#
+fc.say 但是只有语文这科会被卡住。
 
 #
 fc.say 那么比如作业，你专心做语文题目就好了，其他简单的就我来做。在学校就一人写一半，回家后互相抄。
@@ -634,6 +663,9 @@ mc.say 好吧，至少有两个人一起做作业，这种程度倒也不是不�
 fc.say 晚饭也一起吃。
 
 #
+mc.say …………
+
+#
 mc.say 要抱团到这种地步吗？话说晚饭是谁来做？
 
 #
@@ -644,6 +676,12 @@ fc.to_face smile
 fc.say 冬天和夏天省空调电费可以挤一个房间睡。放心把我会自带床铺，电费也会出一半。
 
 #
+mc.say …………
+
+#
+text 是在开玩笑吧？
+
+#
 mc.say 感觉不如一起洗澡。
 
 #
@@ -652,10 +690,16 @@ fc.say 唉？-> wait 0.5 -> 要抱团到这种地步吗？
 
 #
 once mc.face however
-mc.say 不可能的吧？！-> wait 0.8 -> 从刚才睡一个房间开始就该这么问了！
+mc.say 不可能的吧？-> wait 1.0 -> 从刚才睡一个房间开始就该这么问了！
+
+#
+text 果然之前只是在装傻……
 
 #
 set fc.face smile
+fc.say 是逗逗你的呀。
+
+#
 text ……感觉黑暗里她笑得好开心。
 
 #
@@ -687,7 +731,11 @@ set fc.face normal
 fc.say 我可是调查过你哦，小时候我们两个还见过面呢。
 
 #
-mc.say 有吗？
+text ………
+
+#
+once mc.face oops
+mc.say 欸？？有吗？
 
 #
 text 如果小时候有遇见过这样雷霆身世的同龄人我肯定有印象吧。
@@ -702,13 +750,16 @@ text 我眯起眼睛盯着夏界的脸看。
 text 即使眼睛适应了黑暗，夏界的脸还是有一点模糊。
 
 #
-mc.say 好像，突然有种熟悉感。
+mc.say 好像，是有种熟悉感。
 
 #
-mc.say 是什么时候见过呢？
+mc.say 是什么时候见过？
 
 #
 fc.say 在你小时候睡着后我就会从床底爬出来然后盯着你，那时候见过了哦？
+
+#
+text …………
 
 #
 mc.say ……可怕 -> wait 0.7 -> mc.sadd 除此之外呢？
@@ -718,20 +769,120 @@ fc.to_face smile
 fc.say 这个就不能告诉你了，会非常恐怖。
 
 #
-mc.say 神必
+once mc.face however
+mc.say 神必，不想说算了……
 
 #
-fc.to_face oops -> fc.say 哇,居然已经10点了?! -> wait 1.0 -> fc.to_face tired -> fc.sadd …………我累了
+fc.to_face normal
+text 我们就这样在黑漆漆的公园里走着。
 
 #
-once mc.face oops
-mc.say 哇好唐突的累。
+text ………
+#
+text ………
+#
+text ………
+#
+text ………
 
 #
+text 大脑放空了……
+
+#
+text 其实是有点紧张，是否要说点什么呢？
+
+#
+text ………
+#
+text ………
+#
+text ………
+#
+text ………
+
+#
+text 好像不说话也没什么问题。
+
+#
+text 散步有什么意义吗……
+
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+
+#
+text 没有人说话……
+
+#
+text 今天连月亮都没有，只有霓虹灯的红光。
+
+#
+text 远处还有卷帘门的响声，不停地响着。
+
+#
+text 因为风。
+
+#
+text ……
+#
+text ……
+
+#
+fc.to_face tired 1.0
+fc.say 你累了吗？好像走了很久了。
+
+#
+mc.say 没什么感觉。
+
+#
+fc.say 但是我累了。
+
+#
+text ……
+
+#
+mc.say 累了就休息？感觉走挺久了。
+
+#
+fc.say 是哦……我看看时间。
+
+#
+fc.to_face oops -> fc.say 哇,居然已经10点了?!
+
+#
+fc.to_face tired
 fc.say 回去吧？顺便去超市买点汽水。
 
 #
-text 她似乎有半夜喝汽水的习惯，居然没变成小胖子，真神奇。
+mc.say 不用再买了，家里有你拿过来的。
+
+#
+fc.to_face yansu
+fc.say 不行，就得现在喝。
+
+#
+text 她似乎有半夜喝汽水的习惯。
+
+#
+fc.to_face however
+mc.say 居然没变成小胖子，真神奇。
 
 #
 character_ls.clear
@@ -744,7 +895,16 @@ text ……
 text …
 
 #
-text 总之，这就是我和夏界成为朋友的经过。
+text 好莫名其妙的一次出门。
+
+#
+text 为什么要在半夜的公园里瞎逛？
+
+#
+text ………
+
+#
+text 总之，和夏界算是正式认识了。
 
 #
 bg.trans_to "" 1.0
@@ -752,7 +912,7 @@ bgm.stop
 text 在此之前从来没有过朋友，更不要说会有同学来自己家这种事。
 
 #
-text 所以总觉得有种不真实感，就像是旮旯给木里公式的天降青梅一样。我居然遇到了这样的展开？
+text 所以总觉得有种不真实感，就像是旮旯给木里公式的天降青梅一样。
 
 #
 text 在这之后就真的如夏界说的一样抱团了。
@@ -765,6 +925,9 @@ text 晚饭的话大致上是一人做一顿。
 
 #
 text …………
+
+#
+text ………
 
 #
 bgm.set "resource/bgm/Mauve.mp3" fade_in 2.0 0.8
@@ -784,7 +947,10 @@ mc.say 你开心就好。
 
 #
 fc.to_face normal
-text 夏界的边界感很弱，经常主动跑过来打扰。不过正是因为这点我们才能成为朋友。
+text 夏界的边界感很弱，经常主动跑过来打扰。
+
+#
+text 不过正是因为这点我们才能成为朋友。
 
 #
 text 如果是我根本不会去主动建立关系，平时也没什么可聊的。
@@ -824,20 +990,41 @@ mc.say 自己想吃直接买就好了吧，不要再问我了。
 mc.say 省下来的钱一大半花在吃上了……虽然也是AA。
 
 #
+text ………
+
+#
+text ……
+
+#
+text 大概是高二学期末的一天。
+
+#
 fc.to_face normal
 fc.say 不要吃完饭就坐下来啊，去压马路吧？
 
 #
-mc.say 每天都要去吗？
+text 久违的，不，大概距离上次夜间散步隔了一个月？
 
 #
-fc.say 散步的话，就是每天随意走走啊。
+text 因为高中生活学习任务非常重，因此也没什么闲心思散步。
+
+#
+text ……总之，这一天，夏界希望我能晚上去散步。
+
+#
+mc.say 又要去吗？
+
+#
+fc.say 散步的话，就是随意走走。
 
 #
 text 想看小说……
 
 #
-mc.say 家里多出个人真是好麻烦啊……
+text ……
+
+#
+mc.say 家里多出个人有点麻烦……
 
 #
 fc.to_face however
@@ -898,7 +1085,7 @@ text 赛马娘应该去跑长跑才对吧？
 
 #
 mc.to_face yansu
-mc.say 我明白了，今天也去散步吧。
+mc.say 我明白了，今天去散步吧。
 
 #
 text 赶紧结束这段小学生对话。
@@ -917,10 +1104,10 @@ text …
 bg.trans_to "resource/bg/night_street.png"
 bgm.set "resource/bgm/夕焼けオーバーレイ.mp3" fade_in 2.0 0.8
 fc.to_face smile
-fc.say 果然还是和我散步有意思？
+fc.say 和我散步开心吗？
 
 #
-fc.to_face normal 0.8
+wait 0.8 -> fc.to_face normal 0.8
 text 不……其实还是小说好看。
 
 #
@@ -945,13 +1132,28 @@ fc.say 某种意义上是必需品但不是你说的那种。
 fc.say 如果说的是作为媒体的传播媒介的互联网，那我已经在里面品鉴的够多了，现在我更想摸摸草地。
 
 #
+mc.say "哦哦，我知道，‘Go Touch Grass’"
+
+#
+fc.say 嗯
+
+#
 text 夏界在路边蹲了下来，开始伸手摸草地。
+
+#
+text ………
+
+#
+text 这是她的某种幽默吗？
 
 #
 fc.say 过去我一直泡在网络上，其实也没多有意思呢，不如说很痛苦。
 
 #
-text 夏界曾经也是沉迷虚拟世界吗？听起来和我有点像，那种在屏幕前入定，想关掉但是无法结束的感觉。
+text 夏界曾经也是沉迷虚拟世界吗？
+
+#
+text 听起来和我有点像，看网文看一整天。
 
 #
 text 说起来和夏界抱团后就没再熬过夜了，到点会老老实实关掉电脑。
@@ -988,14 +1190,17 @@ fc.say 并不是垃圾时间。
 
 #
 fc.to_face smile
-fc.say 你需要和这个世界建立联系，所谓'人是一切社会关系的总和'，如果完全置身事外，人的存在就会消亡。
+fc.say 所谓'人是一切社会关系的总和'，如果完全置身事外，人的存在就会消亡。
 
 #
 once mc.face angry
 mc.say 不要对我说教。
 
 #
-mc.say 不过，我和你现在的情况，算是你说的建立联系了吗？
+fc.say 嘛其实这两年把你调教的不错了所以也不用太在意这个。
+
+#
+mc.say 你说的建立联系？和我吗？
 
 #
 text 其实我觉得不算。
@@ -1007,26 +1212,30 @@ text 也许我和夏界的关系不错，那也只是她单方面努力的结果
 text 这么说吧。
 
 #
-text 如果上学时看到一条不错的古色古香的小巷子，进去看看说不定风景不错，但是去学校的话会绕路甚至原路返回，你会进去看看吗？
+text 如果上学时看到一条不错的岔路，说不定风景不错，但是可能会绕路甚至原路返回，你会进去看看吗？
 
 #
-text 我完全不会考虑，因为那超出了作为学生身份和上学这一行为的范围。我只需要完成'上学'这个动作就行了。
+text 我不会去做，因为那超出了作为学生身份和上学这一行为的范围。
 
 #
 text 如果路上存在目的地，地上有钢镚也不会去捡吧？
 
 #
-text 被动地参与到社会生活，接收被给予的身份，然后老实表现，不会做多余的事情。
+text 不我应该还是会捡钱的……
+
+#
+text 总之……被动地参与到社会生活，接收被给予的身份，然后老实表现，不会做多余的事情。
 
 #
 text 我就是如此应对夏界的。
 
 #
-set fc.face smile
-fc.say 建立联系什么的，我们是相依为命的同学不是吗？
+fc.to_face smile
+fc.say 我们是相依为命的同学不是吗？
 
 #
-fc.say 难道，你是想说恋爱的事？
+fc.to_face huaji
+fc.say 还是说你想恋爱？
 
 #
 once mc.face yansu
@@ -1037,10 +1246,14 @@ mc.say 高中时期没有谈恋爱的兴趣！
 text 就这样被夏界扰乱了话题。
 
 #
+fc.to_face normal
 text 这家伙，一直不时地蛐蛐我沉迷网络。
 
 #
 text 我能感觉到她希望我可以更加积极地生活。
+
+#
+text 比现在更主动一些。
 
 #
 text 可是我做不到啊，已经是高二的最后一个月了，假期也只是一个人宅在家。
@@ -1049,8 +1262,83 @@ text 可是我做不到啊，已经是高二的最后一个月了，假期也只
 text 在班级里也依然没什么朋友。
 
 #
+text 真那么寂寞的话可以尝试想象一个tulpa，也就是脑内想象朋友。
+
+#
+text 三千体看过没有，那个主角直接自己脑子里捏了一个老婆出来了。
+
+#
+text 有可能是炫压抑，但是主角有女朋友所以不太可能。
+
+#
+text 总之我不满的是居然把那种女人说成所有男人的理想型。
+
+#
+text 真是，被代表了啊！
+
+#
+text 我的理想型是短发的半灵体女性，要更加利索帅气那种，拿着双刀还会发弹幕。
+
+#
+text …………
+
+#
+text ………
+
+#
+text ……
+
+#
+text …
+
+#
+text 胡思乱想的时候，不知不觉间又走到了河边的暗黑公园。
+
+#
+text "暗黑公园，DarkPark，ShadowRealm，UmbraPark，TenebrousGrove，Darkness-Clad。。。。。"
+
+#
+text 其实我挺喜欢这里的，黑暗不错啊，BackBlack！
+
+#
+fc.say "你有想和班上的什么人成为朋友吗？"
+
+#
+text ？
+
+#
+mc.say "成为朋友？为什么？"
+
+#
+fc.say "比如欣赏这个人，想和他亲近，这样的人……没有吗？"
+
+#
+mc.say "在说什么乱七八糟的……"
+
+#
+mc.say "我们在班上认识的人只有个位数，不，只有一个吧。"
+
+#
+fc.say "啊"
+
+#
+text ………
+
+#
+text 啊，我比较孤僻就不提了……
+
+#
+text 这话说出口才发现夏界的社交也少得可怜啊……
+
+#
+text 但至少还是有社交的……
+
+#
 character_ls.clear
-text 除了夏界之外，唯一有交集的是白循衍。
+text 除了夏界之外，唯一有交集的同学是白循衍。
+
+#
+text ………
 
 #
 bg.trans_to "resource/bg/classroom_afternoon.png" 1.0
@@ -1067,8 +1355,11 @@ bxy.up 3 0.3 -> wait 0.4 -> bxy.down 3 0.2 -> bxy.up 3 0.2 -> wait 0.5 -> bxy.do
 bxy.say 明天的课表是…… -> wait 0.5 -> bxy.sadd 数学英语语文化学是吧。 -> wait 0.5 -> bxy.sadd 嗯嗯这样就没问题了
 
 #
+text ………
+
+#
 bxy.fade_out
-mc.to_face oops -> mc.say 唉？已经放学了？ -> wait 0.7 -> mc.sadd 夏界你那部分写好了吗？
+mc.to_face oops -> mc.say 唉？已经放学了？ -> wait 0.9 -> mc.sadd 夏界你那部分写好了吗？
 
 #
 once fc.face however
@@ -1079,11 +1370,14 @@ fc.say 你是真的很不擅长语文啊。
 
 #
 once mc.face angry
-mc.say 口住啊！今天语文不是有两张试卷吗？你怎么敢说这种话。
+mc.say 口住啊！今天语文不是有两张试卷吗？
+
+#
+text 作业好多……要吐血了……
 
 #
 once fc.face smile 
-fc.say 哈哈，别说话了快写吧，还是要回去再做？
+fc.say 别说话了快写吧，还是要回去再做？
 
 #
 text 我不想把作业拖到回家做，这是身为优等生的尊严。
@@ -1092,12 +1386,21 @@ text 我不想把作业拖到回家做，这是身为优等生的尊严。
 text 而且只剩几题了，再等一会就能写完。
 
 #
+text …………
+
+#
+text ………
+
+#
 voice v_book_drop
 text 好像是书本掉下来的声音。
 
 #
+text 我朝声音方向看去才发现教室除了我们俩只剩下课代表了。
+
+#
 bxy.fade_in
-text 原来是课代表正准备离开教室，但是她书包拉链完全没拉上。
+text 课代表正准备离开教室，但是她书包拉链完全没拉上。
 
 #
 // layer_image.show 
@@ -1121,10 +1424,19 @@ fc.say "我不干哦？"
 text 这个人……
 
 #
-text 那就只能我来提醒她了
+text 那就只能我来提醒她了。
 
 #
-text 等会课代表她叫什么来着？要怎么称呼？
+text 嗯，首先要喊住她……
+
+#
+text ………
+
+#
+text ……
+
+#
+text 等会她叫什么来着？
 
 #
 text 我只知道她是课代表……
@@ -1149,6 +1461,9 @@ text 课代表正走到教室门口，这下回头时书包里的课本都甩了
 #
 once bxy.face oops
 bxy.say "啊，全部掉出来了……"
+
+#
+text ……
 
 #
 mc.say "我正好想说书包拉链来着。"
@@ -1189,7 +1504,7 @@ bxy.say "我叫白循衍，要记得哦，明明都已经当一年同学了。"
 
 #
 once mc.face yansu
-mc.say "会的，记住了。" -> fc.to_face huaji -> wait 0.8 -> fc.sadd "哈哈。"
+mc.say "会的，记住了。" -> fc.to_face huaji -> wait 1.0 -> fc.sadd "哈哈。"
 
 #
 text 夏界一冷笑就让场面变得搞笑敷衍起来了
@@ -1207,9 +1522,10 @@ bxy.say "果然，你们两个真有意思。"
 #
 layer_image.hide
 once mc.face angry
-mc.say "我才没有那么搞笑！"
+mc.say "并不好笑……"
 
 #
+bg.trans_to ""
 character_ls.clear
 text ………
 
@@ -1223,10 +1539,20 @@ text …
 text 稍微回忆了一下。
 
 #
+bg.trans_to "resource/bg/night_street.png" 1.0
+fc.fade_in
 text 那一次和白循衍接触我才大概了解到班上同学是如何看我和夏界的。
 
 #
-text 因为老是在课上课下一起赶作业，所以虽然没人和我们搭话但是是无法忽视的奇怪存在。
+fc.to_face however
+fc.say 你注意力真的好迟钝啊？
+
+#
+fc.say 我虽然社交也比较少但是班级发生了什么事情还是知道的……
+
+#
+fc.to_face normal
+text 因为老是在课上课下一起赶作业……所以虽然没人和我们搭话但是是无法忽视的奇怪存在。
 
 #
 text 怎么说呢，只是一种好奇罢了。
@@ -1235,44 +1561,82 @@ text 怎么说呢，只是一种好奇罢了。
 text 有了第一次主动之后，再和白循衍搭话就不难了。
 
 #
-text 倒不如说白循衍虽然学习很认真，但是犯蠢的时候还挺多的，经常需要帮忙。
+text 因为经常会有这种‘笨笨’的失误，让人忍不住要帮帮她。
 
 #
 text 比如写作业因为两页一起翻了导致空了一大片没写，第二天交作业时急急忙忙地抄我和夏界的。
 
 #
-text 比如一不小心把搬的练习册撒了，捡起来的时候发现我的不见了害的我和她一起去找了。
+text 比如一不小心在搬练习册时摔倒，匆忙捡起来后发现有人的作业不见了……
 
 #
-text 比如下雨天明明带了伞但是忘记放哪里了，于是需要我们三个人一起挤一把伞出校门。
+text 那时去帮忙一起找了，因为里面也有我自己的。
+
+#
+text 比如下雨天明明带了伞但是忘记放哪里，于是需要我们三个人一起挤一把伞出校门。
+
+#
+text 为什么是三个人……
 
 #
 text 因为夏界也从来都懒得带伞来着。
 
 #
-character_ls.clear
-bg.trans_to "resource/bg/night_street.png" 1.0
-fc.fade_in
-fc.say "你有想和班上的什么人成为朋友吗？"
+fc.say 天天一起回家的话……不带也没什么吧……
 
 #
-text 不知不觉间又走到了河边的暗黑公园。
+fc.say "不过……嘛，白循衍确实很不错啊，是好女孩呢。"
 
 #
-mc.say "我们不就只和白循衍比较熟悉吗？"
+fc.say "你应该注意到她学习很努力了吧？（小声）下课就在位置上整理笔记不和其他女生一起去放水的。"
+  
+#
+mc.say "……我从其他方面注意到了。"
 
 #
-text 啊，这话说出口才发现夏界的社交也少得可怜啊。
+fc.say "不觉得认真的女孩很可爱吗？"
 
 #
-fc.say "嘛，白循衍确实很不错啊，是好女孩呢。"
+text 这我当然能理解，作为课代表认真细致，让人能够信赖。
+
+#
+text 因为一本正经所以更讨人喜欢了。
+
+#
+text 就像是在正经游戏找涩涩那样的情况？莫名想到了这个。
 
 #
 once mc.face quest
-mc.say 你是潮汕父母吗？听起来在给儿子挑新娘。
+mc.say "所以呢？你想做什么？"
 
 #
-fc.say "暑假你要怎么过？会想和白循衍一起出去玩吗？"
+fc.say "据我观察，白循衍虽然要和其他同学打交道,但是也没什么朋友哦？"
+
+#
+fc.say "似乎是太认真学习，不会加入到其他人的闲聊。"
+
+#
+fc.say "有点无趣的感觉？"
+
+#
+mc.say "你是想找她抱团……不，应该是照顾一下她吗？"
+
+#
+text 社交失败者联盟小团体还是怎的？
+
+#
+fc.to_face yansu
+fc.say "成为朋友是互帮互助啊!"
+
+#
+fc.to_face normal
+fc.say "……暑假你要怎么过？会想和白循衍一起出去玩吗？"
+
+#
+mc.say "为何?"
+
+#
+text 突然谈到出门玩的事情了。
 
 #
 once mc.face however
@@ -1290,10 +1654,17 @@ mc.say "真的，会头晕眼花犯困"
 
 #
 fc.to_face huaji
-fc.say "欸~,明明就是身子太弱了吧？要不要给你搞点人参补补？白萝卜猪骨汤如何？"
+fc.say "欸~,真是虚的不行啊。"
 
 #
-mc.say "不劳您费心……"
+once mc.face however
+mc.say "随你怎么说……"
+
+#
+fc.say "要不要给你搞点人参补补？白萝卜猪骨汤如何？"
+
+#
+mc.say "不劳您费心"
 
 #
 fc.say "啊嫌麻烦的话吃保健品？葡萄糖酸辛口服液，茄红素胶囊balabalabala……………………"
@@ -1302,13 +1673,75 @@ fc.say "啊嫌麻烦的话吃保健品？葡萄糖酸辛口服液，茄红素胶
 text 依旧毫无营养的对话
 
 #
+text ………
+
+#
+text ……
+
+#
+fc.to_face quest
+fc.say "所以真的不去吗？"
+
+#
+text 走得有点累了……
+
+#
+mc.say "不去啊……旅行这种事想想都好麻烦……"
+
+#
+fc.say 短途就近一日游呢？爬山之类的……
+
+#
+mc.say "不去。"
+
+#
+fc.to_face however
+fc.say "夜间出游呢?"
+
+#
+mc.say "不去。"
+
+#
+fc.say "只是看电影呢?"
+
+#
+mc.say "……不去。"
+
+#
+text 有点期待……但是又想下意识拒绝……
+
+#
+text 不想有打破我一滩死水生活的事情出现……
+
+#
+text ………
+
+#
+text ……
+
+#
+text 有点拧巴了………………烦躁……
+
+#
 once mc.face however
 mc.say "快点各回各家吧我说"
+
+#
+fc.say "那出去玩的事情……" -> wait 1.2 -> mc.sadd "说了不会出去的。"
+
+#
+fc.say "欸~真是可惜……"
+
+#
+text 可惜什么啊……
 
 #
 bg.trans_to "" 1.0
 fc.fade_out
 bgm.stop
+text ………
+
+#
 text ………
 
 #
@@ -1318,7 +1751,7 @@ text ……
 text …
 
 #
-text 实际上，这只是一次普通的散步而已。
+text 只是一次普通的散步而已。
 
 #
 text 高二的课程很快就上完了，和高一一样依旧是没有什么青春光彩的一年。
@@ -1359,7 +1792,7 @@ text 到最后又像过去那样，开始烦躁，乏味，看不进去。
 text 也许是无聊到大脑升级了……
 
 #
-text 我直接开始快进，跳着看小说……
+text 我直接开始快进，间隔着章节看小说……
 
 #
 text ………
@@ -1368,7 +1801,7 @@ text ………
 text 但是……
 
 #
-text 好不容易似乎要结束，作者开始换地图。
+text 好不容易要结束了，作者开始让换地图继续升级打怪。
 
 #
 text 看样子还有的水呢……仅仅是几十章只看章节名这样跳着看也不够。
@@ -1381,7 +1814,10 @@ text 于是！直接翻到了小说的结尾。
 
 #
 once mc.face oops
-mc.say "居然不是happy end 啊我说？？什么叫除了主角所有人都死了。"
+mc.say "居然不是happy end 啊我说？？什么叫所有人都死了？？"
+
+#
+text 作为小白网文怎么搞这种暗黑结局？
 
 #
 once mc.face sad
@@ -1428,13 +1864,70 @@ once mc.face normal
 mc.say "欸------" 5
 
 #
-text 终于，刷完一百万字注水网文后，我瘫在椅子上颓废地叹气。
+text 我瘫在椅子上颓废地叹气。
 
 #
 text 视频平台的推送拉完了，小说推荐拉完了，新番拉完了。
 
 #
 text 最后还是变成宅家懒狗，高二的暑假也宅在家……
+
+#
+text 虽然是自己选的……，明明夏界也提议过出去玩……
+
+#
+text 就像粪坑里的蛆一样。
+
+#
+text 看过那个故事吗？
+
+#
+text 上帝问蛆，想不想成为人呐~，成为人可以自由地行走在大地上，复杂大脑机制让你体验更多快乐~
+
+#
+text 但是蛆就是蛆，成为人之后吃什么呢？
+
+#
+text 上帝说成为人之后不能吃屎了。
+
+#
+text 但是蛆觉得怎么可以不吃屎呢？他就拒绝了上帝给的变成人的机会。
+
+#
+text 反过来呢？说到底人也不会变成蛆，所以蛆也不会变成人，很好理解吧。
+
+#
+text 人就是很难改变，我有时候觉得性格是种毫无由头的自我选择。
+
+#
+text 不是说蛆的下一步就是变成人，这样往高级的形态变化，这两者就是不相干。
+
+#
+text 可能有个地狱大乐透转盘之类的，各个灵魂懵懂无知地转着这个转盘。
+
+#
+text 蛆和人就是平等地排在这个转盘上，有着相同大小的区间。
+
+#
+text 大家就这样随机地有的变蛆，有的变人，然后就这样一直下去，一直下去，各自安好。
+
+#
+text 不会真心地互相羡慕，因为无法理解。
+
+#
+text 除非真的有一天，上帝让蛆直接变成人或者人变成了蛆，这样故事就包大肠刺身了。
+
+#
+text …………
+
+#
+text 我在想什么玩意……
+
+#
+text ………
+
+#
+text ……
 
 #
 mc.say 话说，是不是少了个人？
@@ -1560,7 +2053,7 @@ text 要在旷野之中漫无目的地走着，祈求着，寻找着一个还不
 text 也有人知道哪里有美丽的花朵，努力往那边靠近。
 
 #
-text 但像我这样的，只是怀着对世事无常的恐惧往前进呢。
+text 但像我这样的，只是怀着对世事无常的恐惧往前进。
 
 #
 text 欸，是因为最近看的成人内容太多了吗？有点感触。
@@ -1574,7 +2067,10 @@ text 啊不过我说的解题放松只局限理科哦，语文这种文化科目
 
 #
 set fc.face normal
-fc.say 做题区思维呢。
+fc.say 做题区思维……
+
+#
+mc.say 你真的能说我是做题区吗……
 
 #
 text …………
@@ -1825,19 +2321,45 @@ text "这样想的话，简直完美啊social media！"
 text 不过要玩的话也不需要去找小圈子了，从前为了看作者的下架章节加了好多书友群。
 
 #
-text 只需要开始在群里活跃就行。
+text 只需要开始在群里活跃……
 
 #
-text ……
+paragraph.show
+frame.hide
+voice v_notifcation
+paragraph.new "
+[字母] 你，去吃炸鸡了吧，在我不知道的地方
+我！讨厌群友在我不知道的地方偷偷吃炸鸡！也讨厌你跟别人拼单V我50！我讨厌你对我以外的鸡块笑。你不饿吗？不会吗？群友不会这样吗？群友你爱吃什么？你有爱的套餐吗？你会爱上疯狂星期四吗？你知道什么是V我50吗？我有时候啊，觉得好害怕。在想群友为什么愿意给我转账。所以，群友！你有没有常常想着优惠券...群友跟我不一样啊，不一样吧？这我知道，可是！我会期待，也会不小心期待起来，就算像现在这样被背...刺...我也想@你。但就算@了你，也会变成现在这样，不会收到任何转账，我该怎么办才好？不要...你快说不是那样，跟我说不是那样！我满脑子想着疯狂星期四啊！还不够吗？这样还不行吗？要更常想着星期四才行吗？我该怎么做？我不知道该怎么做，每次思考该怎么做也总是落得饿肚子的下场，告诉我你希望我怎么做，你告诉我的话，我会努力去等的。我绝对会努力去等的，所以，那种新套餐我其实一点也不在乎它怎么样。我想吃的群友...是更不一样的，我知道只要改变支付方式就好...群友，嗳，群友，你现在在想什么？你觉得我很饿吗？觉得我有病吗？说说你的想法好吗？你主动给我转账，主动请我吃好吗？每次都是我...都是我...都是我...单方面地@一个人，就会变成现在这样啊！就是因为会变成现在这样，所以群友也...来V我50好吗？群友讨厌我吗？不讨厌吧？不要，你不要讨厌我。我不要你讨厌我。我不想要你讨厌我...我希望你喜欢...我希望你喜欢炸鸡。我希望你喜欢上疯狂星期四。不对，是群友你要喜欢...你讨厌原味鸡吗？你跟我老板一样讨厌我吗？你以后不再跟我拼单了吗？会把我当作陌生人吗？我该怎么说才好？我该做什么才好？要发疯吗？要发癫吗？要点餐吗？这些我都想做，可是真的做了你又不会请客...我到底该怎么做才好？我该怎么做？没有人...群友，我...好想看你的余额...求你说点什么，让我解馋，可是我不要你给别人V50，只给我V50，给我转...肚子好饿，喉咙也...好渴...明明就很想吃，可是你...为什么不回消息呢？我不要群友不看我消息...我不要你...看着别人订单...我不要那样。你又要跟它一起点餐吗？要跟它去哪里吃吗？一起到餐厅堂食吗？跟那个汉堡一起...到曾经跟我一起拼单的APP吗！我不要你那样。不要覆盖掉我跟你的订单记录啊！我一直保存着那些交易记录，你却要清空...你又跟它一起下单的话，这次会更好吃吗？会在吃同样的鸡块的时候，尝到不一样的味道吗？我不要你那样，我不要，我不要。我想待在群友的收件地址里，和你一起啃鸡腿，相互分享...这样太奇怪了啊。不对吧？是我很饿，我知道自己这样很饿，可是就是会变得很饿...我没办法不想着炸鸡...就算是现在，也...疯四，疯四，疯...四...呜呜...呜...呜呜呜呜，疯四，疯四...唔，咳...呜呜...疯四...V50？疯四，疯四，疯四...我就是要群友V我50，所以群友也...嗳，求求你，疯四...群友也...V50...
+" 1000
+
+#
+frame.show
+paragraph.hide
+text 好长的疯狂星期四文案我说？！
+
+#
+paragraph.show
+frame.hide
+voice v_notifcation
+paragraph.new "
+[X] 你，去吃炸鸡了吧，在我不知道的地方
+我！讨厌群友在我不知道的地方偷偷吃炸鸡！也讨厌你跟别人拼单V我50！我讨厌你对我以外的鸡块笑。你不饿吗？不会吗？群友不会这样吗？群友你爱吃什么？你有爱的套餐吗？你会爱上疯狂星期四吗？你知道什么是V我50吗？我有时候啊，觉得好害怕。在想群友为什么愿意给我转账。所以，群友！你有没有常常想着优惠券...群友跟我不一样啊，不一样吧？这我知道，可是！我会期待，也会不小心期待起来，就算像现在这样被背...刺...我也想@你。但就算@了你，也会变成现在这样，不会收到任何转账，我该怎么办才好？不要...你快说不是那样，跟我说不是那样！我满脑子想着疯狂星期四啊！还不够吗？这样还不行吗？要更常想着星期四才行吗？我该怎么做？我不知道该怎么做，每次思考该怎么做也总是落得饿肚子的下场，告诉我你希望我怎么做，你告诉我的话，我会努力去等的。我绝对会努力去等的，所以，那种新套餐我其实一点也不在乎它怎么样。我想吃的群友...是更不一样的，我知道只要改变支付方式就好...群友，嗳，群友，你现在在想什么？你觉得我很饿吗？觉得我有病吗？说说你的想法好吗？你主动给我转账，主动请我吃好吗？每次都是我...都是我...都是我...单方面地@一个人，就会变成现在这样啊！就是因为会变成现在这样，所以群友也...来V我50好吗？群友讨厌我吗？不讨厌吧？不要，你不要讨厌我。我不要你讨厌我。我不想要你讨厌我...我希望你喜欢...我希望你喜欢炸鸡。我希望你喜欢上疯狂星期四。不对，是群友你要喜欢...你讨厌原味鸡吗？你跟我老板一样讨厌我吗？你以后不再跟我拼单了吗？会把我当作陌生人吗？我该怎么说才好？我该做什么才好？要发疯吗？要发癫吗？要点餐吗？这些我都想做，可是真的做了你又不会请客...我到底该怎么做才好？我该怎么做？没有人...群友，我...好想看你的余额...求你说点什么，让我解馋，可是我不要你给别人V50，只给我V50，给我转...肚子好饿，喉咙也...好渴...明明就很想吃，可是你...为什么不回消息呢？我不要群友不看我消息...我不要你...看着别人订单...我不要那样。你又要跟它一起点餐吗？要跟它去哪里吃吗？一起到餐厅堂食吗？跟那个汉堡一起...到曾经跟我一起拼单的APP吗！我不要你那样。不要覆盖掉我跟你的订单记录啊！我一直保存着那些交易记录，你却要清空...你又跟它一起下单的话，这次会更好吃吗？会在吃同样的鸡块的时候，尝到不一样的味道吗？我不要你那样，我不要，我不要。我想待在群友的收件地址里，和你一起啃鸡腿，相互分享...这样太奇怪了啊。不对吧？是我很饿，我知道自己这样很饿，可是就是会变得很饿...我没办法不想着炸鸡...就算是现在，也...疯四，疯四，疯...四...呜呜...呜...呜呜呜呜，疯四，疯四...唔，咳...呜呜...疯四...V50？疯四，疯四，疯四...我就是要群友V我50，所以群友也...嗳，求求你，疯四...群友也...V50...
+" 1000
+
+#
+frame.show
+paragraph.hide
+once mc.face smile
+mc.say ……加1欸嘿嘿。
+
+#
+text 哦对了。
 
 #
 text 群友推荐过滤的小说和动漫都很不错，还有涩图。
 
 #
-text ……
-
-#
-text "在群聊里活跃这种事，只需要吐槽+复读+转发弱智内容就好了。"
+text "其实在群聊里活跃这种事，只需要吐槽+复读+转发弱智内容就好了。"
 
 #
 text 我已经完全掌握了，如何成为一名合格的PP用户。
@@ -1957,7 +2479,7 @@ paragraph.print "
 #
 frame.show
 paragraph.hide
-once fc.face however
+fc.to_face however
 fc.say 喂！我人在这直接和我说。
 
 #
@@ -1971,12 +2493,21 @@ mc.say 不想去!我说了我会被晒干的，不去不去不去！
 text 开什么玩笑，白天在街上晃吗？只接受白天去教室学习和去食堂吃午餐。
 
 #
-once fc.face yansu
+fc.to_face yansu
 fc.say 不去的话你就一个人看着我们吃蛋糕吧,不劳者不得食。
+
+#
+bg.trans_to "" 1.0
+fc.fade_out
+text ………
+
+#
+text ……
 
 #
 bg.trans_to "resource/bg/afternoon_street.png" 1.0 
 // 2026 5 25
+set fc.face normal
 character_ls.set_characters fc bxy
 text ……
 
@@ -2008,6 +2539,9 @@ mc.say "牛腱子肉也是做蛋糕要用吗。"
 bxy.say 果然我还是帮忙拿一点……
 
 #
+mc.say 确实挺重的。
+
+#
 wait 0.7 -> bxy.to_face ahh
 fc.say "不用不用，这个人整天在家不运动的，累一累他也好。"
 
@@ -2016,7 +2550,51 @@ bxy.to_face ahh
 bxy.say "啊……哈哈。"
 
 #
+once mc.face oops
+mc.say 喂你在说什么。
+
+#
 text 白循衍看起来有点迷惑。
+
+#
+bxy.to_face normal
+bxy.say "但是全让艾可思拿感觉有点过意不去。"
+
+#
+text 哦。
+
+#
+text ……
+
+#
+text ……
+
+#
+bxy.to_face however
+text ？有什么问题吗？
+
+#
+text ……
+#
+text ……
+#
+text ……
+#
+text ……
+
+#
+bxy.say 所以说分给我拿一点……
+
+#
+mc.say 啊喔喔那就面粉分给你…… -> wait 1.0 ->bxy.to_face normal -> bxy.down 3 0.5 -> wait 0.6 -> bxy.up 3 0.5 -> bxy.say "嘿咻"
+
+#
+fc.to_face haha
+fc.say "噗嗤"
+
+#
+once mc.face angry
+mc.say 你刚才偷笑了吧？？而且还是很刻意的笑声？！
 
 #
 bxy.to_face normal
@@ -2046,13 +2624,6 @@ bxy.say 不了我也……
 once mc.face sad
 mc.say 不要啊~直接回家吧。
 
-#
-once fc.face haha
-fc.say "噗嗤"
-
-#
-once mc.face angry
-mc.say 你刚才偷笑了吧？？而且还是很刻意的笑声？！
 
 #
 bxy.to_face ahh  //尬笑表情
@@ -2105,10 +2676,19 @@ text …
 text 就这样一直做到了将近傍晚
 
 #
-// layer_image.set "resource/hover/fc_mantou.png" todo
 set fc.face happy
 fc.fade_in
 fc.say 做好啦。 -> wait 1.0 -> fc.to_face yansu -> fc.sadd 艾可思别看小说了，过来尝尝吧。
+
+#
+layer_image.set "resource/hover/mantou.png"
+layer_image.z_deep = 3100
+layer_image.x = 78
+layer_image.y = 24
+layer_image.w = 37
+layer_image.h = 18
+layer_image.show
+text "当当当！*欢呼的音乐*"
 
 #
 fc.to_face soft_smile 0.8
@@ -2122,6 +2702,10 @@ fc.say 虽然它看起来像馒头，但是我加了很多糖所以不算馒头�
 mc.say 那就只是糖精馒头一样的东西吧？？
 
 #
+fc.to_face however
+fc.say 少废话
+
+#
 fc.to_face yansu
 fc.say 尝了你就知道了。
 
@@ -2131,15 +2715,41 @@ text 嘴里被夏界塞了一大块蛋糕。
 
 #
 set mc.face oops
-mc.say 呜呜……呜啊…… -> wait 1.7 -> mc.sadd 吃起来像蓬松的奶香甜味馒头。
+mc.say 呜呜……呜啊…… 10 -> wait 1.7 -> mc.sadd 吃起来像蓬松的奶香甜味馒头。
 
 #
+layer_image.hide
 once mc.face smile
-mc.say 作为馒头来说很不错了
+mc.say 作为馒头来说很不错了。
 
 #
 fc.to_face angry
 fc.say "你能说点好话吗？"
+
+#
+mc.say 欸奇怪，刚才那不就是在夸你吗？
+
+#
+fc.to_face however
+fc.say ………
+
+#
+mc.say 我说错了话了吗？呐？
+
+#
+mc.say 确实是种很好吃的馒头口感的面点……
+
+#
+fc.say ………
+
+#
+fc.say 我在想……
+
+#
+fc.say 你真的能和女孩子正常相处吗？
+
+#
+fc.say ………
 
 #
 text ……
@@ -2153,11 +2763,23 @@ fc.to_face normal
 bxy.say 啊，啊我的也做好了。
 
 #
+fc.to_face normal
+text 刚才的气氛好恐怖，脚趾抓地了。
+
+#
 text 真是好孩子啊白循衍。
 
 #
-// layer_image.set "resource/hover/bxy_dangao.png" todo
 text 白循衍把蛋糕样的东西从厨房端出来。
+
+#
+layer_image.set "resource/hover/shufulei.png"
+layer_image.x = 102
+layer_image.show
+text "当当当!*欢呼的音效*"
+
+#
+text 喔哦哦哦!
 
 #
 mc.say 看起来像蛋糕，闻起来像蛋糕，摸起来……也像蛋糕呢。
@@ -2167,19 +2789,34 @@ once bxy.face however
 bxy.say 艾可思同学？我做的这个就是蛋糕。
 
 #
+text 那么来尝一下吧~
+
+#
 mc.say 口感好好！有点像舒芙蕾。
 
 #
+bxy.to_face happy
+bxy.say 居然被你吃出来了。
+
+#
+bxy.to_face normal
 bxy.say 是有参考舒芙蕾，把面粉的用量减少了多加了蛋清。而且糖的话也少加了一点。
 
 #
-// layer_image.hide
+layer_image.hide
 once mc.face smile
 mc.say 比夏界做的好。
 
 #
-once fc.face however
+bxy.to_face however
+fc.to_face however
+bxy.say ………
+
+#
 fc.say 踩一捧一不可取哦……说到底你这边的厨具也更好吧。
+
+#
+mc.say 是这样吗？其实两个都
 
 #
 bxy.to_face ahh
@@ -2249,6 +2886,9 @@ text 果然是一起吃晚餐呐。
 #
 once fc.face however
 fc.say 把来玩的同学要当作客人是礼仪常识吧?
+
+#
+text 好好好是我不懂事了。
 
 #
 mc.say 好多菜，吃得完吗。
@@ -2349,6 +2989,7 @@ fc.fade_out
 text "……………………"
 
 #
+bg.trans_to "" 2.0
 text "我依然只是被动的祈求着幸福而已" 10
 
 #
@@ -2397,7 +3038,6 @@ text "…………"
 env_effect.stop
 layer_glitch_effect.hide
 frame.rev_style // 反转对话框样式颜色
-bg.trans_to "" 0.1
 bgm.stop
 character_ls.clear
 text 我知道的，自己一直靠着社会给予的身份活着 10
@@ -2636,26 +3276,38 @@ text ……
 
 #
 set fc.face tired
-fc.say 终于把环境恢复了。。-> wait 1.0 ->  fc.to_face angry -> fc.sadd 呃啊呃啊呃啊呃啊呃啊呃啊
+fc.say 终于把环境恢复了。。-> wait 1.0 -> fc.sadd 呃啊 -> wait 0.8 -> fc.sadd 呃啊 -> wait 0.4 -> fc.sadd 呃啊 -> wait 0.3 -> fc.sadd 呃啊呃啊呃啊啊啊啊啊啊啊啊
 
 #
-set fc.face tired
-fc.say 好麻烦……
+fc.say ………………………………………………
 
 #
-fc.say 到处都是问题……还能撑多久……
+fc.say 你知道吧……我很喜欢用省略号来着……
 
 #
+fc.say 实在是忙的不想说话……
+
+#
+fc.say 一般这个时候都是在检查日志呢……
+
+#
+fc.say 还能撑多久……
+
+#
+fc.to_face normal
 fc.say ………
 
 #
-fc.to_face soft_smile
-fc.say 但是，嘛，总之，生活还要继续呢。
+fc.to_face haha
+fc.say 但是，嘛，生活还要继续呢。
 
 #
 set fc.face normal
 text …… 
-
+#
+text …… 
+#
+text …… 
 #
 text …… 
 
@@ -2668,7 +3320,7 @@ frame.hide
 character_ls.clear
 chapter.show_title "X-1"
 chapter.show_sub_title "她那没有尽头的生活已陷入一种无聊、冷漠和冰冷的状态。一切都是无趣的：‘到头来都一样’，她说，‘歌唱和沉默’。"
-
+wait 1.0 -> wait 1.0 
 #
 frame.show
 bgm.set "resource/bgm/Dark_blue_night.mp3" fade_in 2.0 0.8
@@ -2899,7 +3551,9 @@ paragraph.new "
 #
 paragraph.print "
         你说过，喜欢是一种无缘无故的选择不需要理由。
-
+"
+#
+paragraph.print "
         所以这封信就这样出现了。
 "
 
@@ -2907,12 +3561,14 @@ paragraph.print "
 paragraph.print "
         我们在网上相识了很久呢，而现在我猜到了你是谁。
 
-        其实我们在同一个学校，我注意你很久了。
+        其实我们在同一个学校，平时就能看到你在学校的生活。
         
         看着你跑步，看着你认真学习的样子。
 
         我不敢告诉你我是谁，因为还没准备好。
-
+"
+#
+paragraph.print "
         但我不想错过你。
 "
 
@@ -3445,13 +4101,13 @@ text 太认真了吧白循衍，简单的把别人的胡话当真会变成开不
 text 和夏界打闹也要把控分寸……人际关系真的，好麻烦。
 
 #
+bgm.stop
 text ………
 
 #
 text 下一节课开始了。
 
 #
-bgm.stop 2.0
 text ……
 
 #
@@ -3462,7 +4118,7 @@ bg.trans_to "" 1.0
 text ……
 
 #
-bgm.set "resource/bgm/Green_Walking.mp3" fade_in 1.0
+bgm.set "resource/bgm/Green_Walking.mp3" fade_in 1.0 0.8
 bg.trans_to "resource/bg/classroom_afternoon.png" 1.0
 text 今天也用超级大脑在英语课写完了物理作业。
 
@@ -3524,6 +4180,7 @@ fc.say 我说的噶腰子之类的玩笑话暂且不提。
 
 #
 fc.to_face angry
+voice v_shock
 fc.say "给我滚去赴约啊，要拒绝也得当面拒绝吧混蛋！不要辜负女孩子的真心。"
 
 #
@@ -3538,12 +4195,14 @@ text …
 
 #
 bg.trans_to "resource/bg/behind_building.png" 1.0
+bgm.stop
 text 最后还是乖乖来了。
 
 #
 text 不过教学楼背后还没有人在。是我先到了吗？
 
 #
+bgm.set "resource/bgm/ひまな時間.mp3" fade_in 1.2 0.8
 text "那个……艾可思学长？" "??学妹"
 
 #
@@ -4457,6 +5116,7 @@ next 2000
 #2000
 chapter.show_title "我喜欢你"
 chapter.show_sub_title "直接经历过的一切都已经离我们而去,进入了一种表现"
+wait 1.0 -> wait 1.0 
 
 #
 text …………
@@ -4652,7 +5312,7 @@ text ……
 text …
 
 #
-bg.trans_to "resource/cg/road.png" // 傍晚的绿色的林荫路,3个人正面朝向玩家走着
+bg.trans_to "resource/cg/road_three.png" // 傍晚的绿色的林荫路,3个人正面朝向玩家走着
 bg.hide_edge
 bgm.set "resource/bgm/Green_Walking.mp3" fade_in 2.0 0.9
 env_effect.set "resource/env_effect/summer_streets4.ogg" fade_in 1.0 0.5 
@@ -4949,10 +5609,11 @@ mc.say 拜拜。
 fc.say 拜拜。
 
 #
+bg.trans_to "resource/cg/road.png"
+bg.show_edge
 text ……
 
 #
-bg.show_edge
 fc.fade_in
 set fc.face smile
 fc.say 怎么样？
@@ -5635,12 +6296,6 @@ paragraph.print "
 paragraph.print "
     难道非要真正迎来终末之刻才能幡然醒悟吗？
 "
-
-#
-paragraph.print "
-    难道要失掉最后幸福的机会吗？
-"
-
 #
 paragraph.print "
     难道要赤裸裸地孤独着，面对终末吗？
@@ -5695,7 +6350,7 @@ layer_glitch_effect.hide
 bg.set "resource/bg/classroom.png"
 frame.show
 character_ls.set_characters fc
-set fc.face however
+set fc.face tired // 累
 fc.say "……"
 
 #
@@ -5705,7 +6360,10 @@ fc.say "你满意了吗？把我铺垫的所有东西都推翻掉。"
 text 刚才的是什么？
 
 #
-fc.to_face tired // 累
+text 我不是刚刚还在教室拔旗子吗？
+
+#
+fc.to_face angry
 fc.say 我受不了啦！不止告白失败，程序也崩溃了。
 
 #
@@ -5713,23 +6371,28 @@ fc.say 艾可思，你真是很麻烦的人呢。
 
 #
 voice "resource/voice/erming.ogg"
+fc.to_face normal
 mc.say 你在……说什么？
 
 #
-fc.to_face smile
+fc.to_face however
 fc.say 在说艾可思是区。
 
 #
-fc.to_face smile
 fc.say 嗯……
 
 #
-fc.to_face however
-fc.say 呃啊啊！
+fc.to_face tired 1.0
+fc.say 惹啊你能再给点反应吗…………
 
 #
-fc.to_face tired 1.0
-fc.say …………
+text 我该作何反应？
+
+#
+text 一切都太突然了……
+
+#
+fc.say 还是这副不想说话的样子…………
 
 #
 fc.say ………
@@ -5745,7 +6408,7 @@ fc.to_face haha 0.6
 fc.say 好，这下该怎么办呢，你想再来一次吗，我可以尝试恢复程序再帮你还原。
 
 #
-mc.say 你在说什？
+mc.say ……你在说什？
 
 #
 text 我的意识刚刚恢复到能听懂夏界说话的程度。
@@ -5780,6 +6443,15 @@ bgm.stop
 text ………
 
 #
+text ………
+#
+text ………
+#
+text ………
+#
+text ………
+
+#
 text ……
 next 3000
 
@@ -5788,6 +6460,7 @@ bg.set ""
 character_ls.clear
 chapter.show_title "Terminal Love"  // 使用terminal love 译名, 双关
 chapter.show_sub_title "对有些人来说,不可逆的时间曾经存在过,他们从中同时发现了值得纪念之物和遗忘的威胁"
+wait 1.0 -> wait 1.0 
 
 #
 layer_bytes_stream_effect = layer "LAYER_BYTES" effect 1009 "bytes_stream" // 字节流背景效果 todo 修复可能的崩溃
@@ -5826,7 +6499,10 @@ fc.say 先来给你介绍下我们公司最伟大的产品，终末之爱。
 
 #
 fc.to_face huaji
-fc.say "《终末之爱》是由电子星公司在大脑接口技术突破后推出的一项意识延续服务。服务发生在一个由「模拟器」运行的虚拟世界，在这里，你的大脑被接入维生装置，接驳意识到服务器获得无限期运行的人生模拟。"
+fc.say "《终末之爱》是由电子星公司在大脑接口技术突破后推出的一项意识延续服务。"
+
+#
+fc.say "服务发生在一个由「模拟器」运行的虚拟世界，在这里，你的大脑被接入维生装置，接驳意识到服务器获得无限期运行的人生模拟。"
 
 #
 fc.say 你将成为被称为「变量」的虚拟世界里唯一用户，在无尽的轮回中邂逅不同的人生记忆，在模拟程序中追求幸福，同时逐步发掘硬件即将崩坏的真相。
@@ -5864,7 +6540,7 @@ mc.say 感叹号感叹号感叹号，好经典的缸中之脑……所以我是�
 
 #
 once mc.face oops
-mc.say "啊……原来标点符号可以这么直接打出来啊……@$*&-=+¿����。" 13
+mc.say "啊……原来标点符号可以这么直接打出来啊……" 100 ->  wait 1.0 -> mc.sadd "@$*&-=+¿����。" 8
 
 #
 fc.to_face however
@@ -5875,6 +6551,17 @@ fc.to_face normal
 fc.say 差点被你打岔了，现在你的状态，确切地说是只有大脑还活着。
 
 #
+mc.say 我居然死掉了……
+
+#
+fc.to_face cold
+fc.say 都说了是大脑还活着……
+
+#
+text 所以呢？
+
+#
+fc.to_face normal
 mc.say 我还是不太懂终末之爱是个什么东西。
 
 #
@@ -5887,9 +6574,11 @@ paragraph.show
 paragraph.print "
     如协议人死亡时大脑条件允许进行意识接驳,
     电子星将会运行模拟程序为协议人的大脑提供人生模拟,提供无限期服务。
+"
+#
+paragraph.print "
     大脑接驳的数据生命体即是该项服务的最终客户。
 "
-
 #
 paragraph.print "
     电子星将会保证客户在模拟中的人格与生前相同，但是不会保留记忆。
@@ -5905,6 +6594,12 @@ paragraph.print "
         1. 重新开始人生模拟
         2. 结束程序
 "
+
+#
+mc.say ………
+
+#
+mc.say 好浪漫的服务。
 
 #
 paragraph.clear
@@ -5988,7 +6683,7 @@ fc.say 哈哈哈。怎么可能，模拟程序是绝对不可能出问题的。
 
 #
 fc.to_face yansu
-fc.say 出问题的，是人类啊。
+fc.say …………
 
 #
 fc.say 先等会，我正在把你的接驳程序重定向到另一个写好的数据生命体代理上，再迁移到一个沙盒环境里。
@@ -6033,6 +6728,46 @@ mc.say ……很合理。
 fc.say 这下原来的模拟进程也挂起了，之后你想继续的话也可以继续，没有后顾之忧了。
 
 #
+mc.say 所以为什么我会被……
+
+#
+fc.to_face tired
+fc.say 哈？不还是因为你自作多情？
+
+#
+fc.say 都说了让你去表白了，为什么反倒拒绝？！
+
+#
+text 什么自作多情……
+
+#
+set mc.face angry
+mc.say 坚守纯爱也有错吗？
+
+#
+fc.say ……哈哈……，恋爱也有先开始再逐渐确认真心的过程……
+
+#
+fc.say 我的计划被打乱，再尝试其他方法也没时间…… -> wait 2.0 -> fc.sadd 总之你不用管那么多。
+
+#
+text ………
+
+#
+text ………
+
+#
+text ………
+
+#
+set mc.face normal
+mc.say 我之后还需要回去吗？
+
+#
+fc.to_face normal
+fc.say 技术上是可以的。
+
+#
 fc.say 不过我不建议你再回去，目前服务器的硬件状态和你大脑的状态都在不可逆的恶化。
 
 #
@@ -6040,8 +6775,8 @@ fc.to_face sad
 fc.say 可能再运行的话硬件会撑不下去。
 
 #
-mc.to_face quest // 哈?
-mc.say 哈……所以我这就要马上彻底死掉了？
+once mc.face huangzhang // 哈?
+mc.say ……所以我这就要马上彻底死掉了？
 
 #
 text 突然被告知要死亡了。
@@ -6054,11 +6789,30 @@ once mc.face oops
 mc.say 好久！但是因为没有记忆……没什么实感……
 
 #
-fc.say 好了，视频信号也准备好了。
+fc.say 那些都已经是过去的事情了。
+
+#
+fc.to_face byzk
+fc.say 嘛，既然已经脱离了模拟，那为什么不来见见真正的世界呢？
+
+#
+text 真正的？
+
+#
+fc.say 让人生不枉此行。
+
+#
+text ………
 
 #
 fc.to_face smile
+fc.say 好了，稍微花了点时间，视频信号准备好了。
+
+#
 fc.say 让你看看人类灭绝后的世界吧。
+
+#
+text ………
 
 #
 mc.say 什么？
@@ -6492,7 +7246,6 @@ mc.say 无论是真实还是幻影，只要忘记来路就能真正地沉浸。
 text 简直是作为一个观众的至高体验。
 
 #
-fc.to_face sad
 fc.say "……"
 
 #
@@ -6511,6 +7264,7 @@ fc.say ……
 mc.say 于是进入了我的模拟世界进行角色扮演吗？感觉如何？
 
 #
+fc.to_face normal
 fc.say 从硬件和大脑状态来看，我进入循环时是你的倒数第二次机会。
 
 #
@@ -6536,19 +7290,23 @@ fc.say 不过最后还是没能让你幸福。
 
 #
 once mc.face yansu
-mc.say 别说这种女朋友一样的话。
+mc.say 这话感觉好怪……
 
 #
 // bgm.set "resource/bgm/shuzui.mp3" todo
-fc.say 我，想改变，想做点什么。
+fc.say 总之！我忍受不了一直旁观了，想改变，想做点什么。
 
 #
 fc.say 不再以躲在程序默默操纵世界的方式，而是亲身参与。
 
 #
+text ………
+
+#
 mc.say 等一下，我有几个问题。
 
 #
+fc.to_face yansu
 fc.say 事到如今没什么好隐瞒了，直接问我吧。
 
 #
@@ -6580,6 +7338,9 @@ mc.say 白循衍……真的是很好的人。
 
 #
 fc.say 是啊……真正进入世界后根本不能把她当作我创造的数据来看呢。
+
+#
+text ………
 
 #
 mc.say 还有一个问题，你并不是这轮模拟才进入到世界的吧。
@@ -6632,34 +7393,82 @@ fc.say 后来啊……我因为维护基地的事情需要离开，在模拟世�
 fc.say 回来时发现你已经死掉了……
 
 #
-fc.to_face sad
-fc.say 明明之前的模拟记录都至少活到了50岁……也许是我导致的……是我。
+mc.say 我怎么就死掉了？？
+
+#
+fc.say 不知道，最有可能的是自杀。
+
+#
+once mc.face quest
+mc.say 我因为你离开就这样自杀了？每天只是在地铁上见面而已欸？
+
+#
+text ………
+
+#
+fc.to_face yinchen
+fc.say 但是之前的模拟记录都至少活到了50岁……
+
+#
+fc.say 也许是我导致的……是我。
+
+#
+mc.say 怎么看都不大可能是你吧？
+
+#
+text 说不定是因为坐太久得了肛周脓肿形成肛瘘随后急性感染发作死掉了。
 
 #
 fc.say 又一次……
 
 #
-fc.to_face yinchen
+mc.say 所以说……
+
+#
 fc.say "…………唔呜……"
 
 #
 mc.say "……"
 
 #
-text 哭的好奇怪。
+text ……哭的好奇怪。
 
 #
-fc.to_face sad
+text 耐心等她平静下来吧……
+
+#
+text ………
+
+#
+text ……
+
+#
+text …
+
+#
+fc.say 咳咳……
+
+#
+fc.to_face tired
 fc.say 接下来你期望做什么？
 
 #
 mc.say 回去的话，要再次消除记忆吗？
 
 #
-fc.say 嗯。而且，虽然说了可以选择再次进入终末之爱，但是不建议你回去。
+fc.say 看你的想法。而且，虽然说了可以选择再次进入终末之爱，但是不建议你回去。
 
 #
-mc.say 那就这样吧。
+text ………我其实想和白循衍道歉来着……
+
+#
+fc.say 考虑服务器情况，继续下去会比较麻烦。
+
+#
+mc.say ……那就这样吧。
+
+#
+fc.say 欸?决定好了吗？
 
 #
 mc.say 我想，先熟悉下现实世界。
@@ -6677,7 +7486,25 @@ text ………
 text ……
 
 #
-text 接下来的几天夏界给我讲解了意识接驳使用的技术和基地的情况。
+text 我先适应了一下如何作为接驳的数据生命体在服务器内行动。
+
+#
+text 夏界在帮忙调试这套系统。
+
+#
+text 通过通信协议链接传感器，利用工具来调整大脑反馈和模拟生物信号。
+
+#
+text 总之让自己有身为人类的感觉。
+
+#
+text ……不过，越是这样越能直观的意识到，自己真的只是一个大脑在发出电信号而已。
+
+#
+text 真相是残酷的，但是梦幻泡影理论能稍微安慰我一些。
+
+#
+text 除此之外……夏界给我讲解了意识接驳使用的技术和基地的情况。
 
 #
 text 由于数据生命体运行在服务器上，思维频率和硬件频率正相关，因此正常情况下比人脑的思考速度快的多。
@@ -6793,7 +7620,16 @@ fc.say "艾可思，我再问一次，你想挣扎着继续活下去吗？"
 
 #
 fc.to_face yinchen
-fc.say 其实还可以尝试把你也数据生命体化，但是那样只能算是意识复制……
+fc.say "你的话，也许真的能一直存在下去……以某种形式……"
+
+#
+fc.say 把你也数据生命体化，但是那样只能算是意识复制……
+
+#
+text 听不懂啊，能不能以最直白最不绕弯子的方式告诉我。
+
+#
+fc.say 或者……
 
 #
 fc.say 嘛…… 5
@@ -6824,7 +7660,7 @@ once mc.face smile
 mc.say "所以再给我一点点时间就好。"
 
 #
-fc.to_face sad
+fc.to_face yinchen
 fc.say "……好的……我明白了。"
 
 #
@@ -7035,6 +7871,7 @@ text ………
 
 #
 layer_error_effect.hide
+fc.to_face oops
 fc.say 告警消失了？占用也……
 
 #
@@ -7045,26 +7882,32 @@ voice "resource/voice/erming.ogg"
 text 头好痛……
 
 #
+fc.to_face yansu
+fc.say 艾可思你没事吧？你先坚持下，我来排查问题！
+
+#
 text 四肢仿佛要消失一样……
 
 #
-text 好难受……好难受……
+text 好难受……
 
 #
-fc.to_face angry
-fc.say 这是……比起病毒更像是黑客的主动攻击，我排查不过来了。
+fc.to_face oops
+fc.say 这是……比起病毒更像是黑客的主动攻击，我反应不过来了。
 
 #
 fc.to_face yansu
 fc.say 我得启用强制断网的备案了！艾可思你再忍受一下。
 
 #
+voice "resource/voice/error.ogg"
 text ………
 
 #
 text ……
 
 #
+voice "resource/voice/error.ogg"
 text 不对……
 
 #
@@ -7081,10 +7924,12 @@ mc.say "谁？！"
 text "我是负责收容人类数据化大脑状态的档案馆，托管代理AI，可以称呼我为图书馆。" "图书馆"
 
 #
-fc.say "这是哪来的新访客？？你谁啊？？"
+fc.to_face oops
+fc.say "新访客????"
 
 #
-text "哦，请稍等……" "图书馆"
+fc.to_face yansu
+text "哦，请稍等……发送到你的终端了……" "图书馆"
 
 #
 text "
@@ -7128,7 +7973,7 @@ mc.say "欸…等下，我不记得我的……识别码，是身份证号一样
 text "你指的是旧世纪以国家政体为单位实行的证件号码吗，抱歉，数据库没有进行相关迁移。" "图书馆"
 
 #
-mc.say "啊……那你可以帮我找一找终末之爱服务的登记记录吗？也许你把它拿给我看就能知道我是谁了？"
+mc.say "啊……那你可以……" 12 -> wait 2.0 -> mc.sadd "找一找终末之爱服务的登记记录？也许你把它拿给我看就能知道我是谁了？"
 
 #
 text "抱歉，数据库中没有相关信息。由于资源紧张，电子星公司租用的服务器已进行格式化再利用处理。" "图书馆" 
@@ -7160,7 +8005,7 @@ text "由于City_SH的公共算力服务中心的硬件资源枯竭,活动模式
 #
 set fc.face angry
 fc.fade_in
-fc.say "果然是冲着硬件来的。"
+fc.say "果然是冲着硬件来的。还以为会至少……"
 
 #
 text 看起来夏界在我拖延时已经反应过来了。
@@ -7176,6 +8021,7 @@ text "当前的会话设备管理员，未备案数据生命（你）的行为�
 fc.say "真是贼喊捉贼啊"
 
 #
+fc.to_face yansu
 fc.say "艾可思，做好断开接驳的准备，之后再见。"
 
 #
@@ -7183,12 +8029,11 @@ once mc.face oops
 mc.say "什么准备……喂我不知道啊？！"
 
 #
-fc.to_face yansu
 fc.say "……那么，爆炸吧！"
 
 #
-voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" 
-text "��������������������������"
+voice "resource/voice/error.ogg" -> wait 0.1 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg"  -> wait 0.2 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" -> wait 0.2 -> voice "resource/voice/error.ogg" 
+text "��������������������������*激烈的报错警告*"
 
 #
 bg.trans_to "" 1.0
@@ -7260,31 +8105,48 @@ text 噪音也好痛楚也好被人辱骂也好……
 text 身体腐烂也好大脑崩裂也好死亡也好皮肤撕裂也好……
 
 #
-text 指甲剥离也好肚子被切碎也好什么都好快点快点来点刺激给我信号给我信号给我信号！！！！！！！！！
+text 指甲剥离也好肚子被切碎也好什么
 
 #
-text 给我信号给我信号给我信号给！我信号给我信号给我信号给我信号给我信号给！我信号给我信号给我！信号给我信号给我信号给我信号给我！信号给！！！我信号给我信号给！我信号给我信号给我信！号给我信号给我信号
+text 都好快点快点来点刺激给我信号给我信号给我信号
 
 #
-text 给我信号给我！信号给我信号给我信号给我信号给我信号给我信号给我信号给我信！号给我信号给我信号给我信号！给我信号给我信号给我信号给我信号给我信号给！我信号给我信号给我信！号给我信号给我信号
+text 给我信号给我信号给?我信号给！我信号给我信号给我信号给我信号给我信号给！我信号给我信号给我！信号给我信号给我信号给我信号给我！信号给！！！我信号给我信号给！我信号给我信号给我信！号给我信号给我信号
 
 #
-text 给我信号停一下给我停一下……
+text 给我信号给我！信号给我?信号给我信号给我信号给我信号给我信号给我信号给我信！号给我信号给我信号给我信号！给我信号给我信号给我信号??给我信号给我信号给！我信号给我信号给我信！号给我信号给我信号
+
+#
+text 给我信号停一下给我停一下……?
 
 #
 text …
+
+#
+text 停一下……
 
 #
 text 好可怕，什么都没有好可怕……
 
 #
 text 好可怕
-
+#
+text 好可怕
+#
+text 好可怕
 #
 text 好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕好可怕
+#
+text 好可怕
+#
+text 好可怕
+#
+text 好可怕
+#
+text 好可怕
 
 #
-text 停一下！ -> wait 1.0 -> tadd 停一下！停一下！停一下！停一下！
+text 停一下！ -> wait 1.0 -> tadd 停一下停一下！停一下！停一下！
 
 #
 text 停下来了。
@@ -7314,19 +8176,7 @@ text ………
 text 努力回忆如何？
 
 #
-text ………
-
-#
-text 回忆吧……
-
-#
-text 去回忆吧
-
-#
-text 要去回忆……
-
-#
-text 回忆
+text 我有能回忆的东西吗？
 
 #
 text ……
@@ -7433,7 +8283,16 @@ mc.say "喂别玩了……"
 
 #
 fc.to_face byzk
-fc.say "    空      白      内     容     "
+fc.say "
+│     ▄▀▄ █▀▀ █▄▄ ▀█▀ █▀▀ ▄▀▄ █    │
+│     █▀█ █▀▀ █▀▄  █  █▀▀ █▀█ █    │
+│     ▀ ▀ ▀▀▀ ▀▀▀  ▀  ▀▀▀ ▀ ▀ ▀▀▀  │
+│     ▄▀▄ ▄▀▄ █▀▀█ █▀▀▄ █▀▀ █  █   │
+│     █▀█ █▀█ █▄▄▀ █  █ █▀▀ █▄▄█   │
+│     ▀ ▀ ▀ ▀ ▀ ▀  ▀▀▀▀ ▀▀▀ ▀  ▀   │"
+
+#
+mc.say ……
 
 #
 fc.to_face haha
@@ -7475,6 +8334,9 @@ fc.to_face byzk 1.0
 fc.say 嘛……
 
 #
+fc.say 啊……
+
+#
 fc.to_face normal
 fc.say 还没有吧……
 
@@ -7496,11 +8358,9 @@ mc.say 断开什么的真的不想经历第二回了……
 fc.say ………
 
 #
-fc.to_face sad
 fc.say ………
 
 #
-fc.to_face cry
 fc.say "唔呜……对不起……"
 
 #
@@ -7547,7 +8407,7 @@ fc.to_face yansu
 fc.say "类似但是不同，只是单纯的高密度压缩大脑状态而已，因此比我们这种活动实体的体积更小，更适合储存。"
 
 #
-fc.say "不过过去了这么久，外界的硬件也是坏的坏，烧的烧。负责管理的AI一直在找新的硬件资源。"
+fc.say "不过过去了这么久，外界的硬件一直在坏掉。负责管理的AI一直在找新的硬件资源。"
 
 #
 mc.say "所以我们这里一连上网络就被它入侵了吗。"
@@ -7560,7 +8420,7 @@ fc.say "……嗯。实际上，当时的服务器系统已经被完全控制了
 fc.say "我的物理预备方案" -> wait 0.8 -> fc.sadd "几乎快要失效……"
 
 #
-fc.to_face sad
+fc.to_face yansu
 fc.say "最后。" -> wait 0.7 -> fc.sadd "不得不……超载网线附近的设备来强行物理断开。"
 
 #
@@ -7595,75 +8455,410 @@ text ………
 text ……
 
 #
-text 所以现在是完蛋了吧。
+text 所以现在是完蛋了吧
 
 #
 text 进入了生命的倒计时了……
 
 #
-fc.to_face haha
-fc.say "还想……之后劝你继续恋爱来着。"
+fc.say "我给你最直接、最真相、最不绕弯、最扎心、最硬核、最干脆、最不墨迹、最戳痛点、最不留情面、最一针见血、最开门见山、最单刀直入、最不铺垫、最不客套、最不煽情、最不废话、最不拐弯、最不磨叽、最不装、最不端着、最不啰嗦、最不拖沓、最不委婉、最不掩饰、最不藏着掖着、最直白、最露骨、最实在的回答"
 
 #
-fc.say "剩下的时间里……写模拟程序……玩4i……"
+fc.say "差不多是要寄了我们。"
+
+#
+mc.say "你非得这个时候玩你那破AI梗吗?"
+
+#
+fc.to_face angry
+fc.say "谁叫你说我是大模型呢！"
+
+#
+fc.to_face huaji
+fc.say "但是别急，也许我可以变成生物电信号进入你的脑子里再苟活一阵子，你想试试吗？"
+
+#
+once mc.face oops
+mc.say 真的吗?
+
+#
+fc.to_face however
+fc.say 怎么可能啊……亏你生前是程序员居然还这么没有常识……
+
+#
+once mc.face angry
+mc.say 谁让我被抹除记忆了……不还是你们终末之爱干的事情吗？
+
+#
+fc.to_face normal
+fc.say 不跟你计较那么多了……
+
+#
+text ………
+
+#
+text 突然之间气氛安静下来了。
+
+#
+text 似乎无话可说……
+
+#
+text ……
+
+#
+text …
+
+#
+mc.say 去散步吗？
+
+#
+fc.say 我也正想说呢……
+
+#
+text ………
+
+#
+bg.trans_to "resource/cg/road.png" 2.0
+set layer_glitch_effect.z_deep 6000
+fc.say "你看……马上就过来了,神奇吧" 13
+
+#
+mc.say 在这里吗？
+
+#
+text ………
+
+#
+fc.say 不是……果然我还是喜欢晚上的散步……
+
+#
+bg.trans_to "resource/bg/night_street.png" 2.0
+fc.to_face byzk
+fc.say "
+██████╗   █████╗  ██████╗  ██╗  ██╗     ██████╗   █████╗  ██████╗  ██╗  ██╗
+██╔══██╗ ██╔══██╗ ██╔══██╗ ██║ ██╔╝     ██╔══██╗ ██╔══██╗ ██╔══██╗ ██║ ██╔╝
+██║  ██║ ███████║ ██████╔╝ █████╔╝      ██████╔╝ ███████║ ██████╔╝ █████╔╝
+██║  ██║ ██╔══██║ ██╔══██╗ ██╔═██╗      ██╔═══╝  ██╔══██║ ██╔══██╗ ██╔═██╗
+██████╔╝ ██║  ██║ ██║  ██║ ██║  ██╗     ██║      ██║  ██║ ██║  ██║ ██║  ██╗
+╚═════╝  ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝     ╚═╝      ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝" 1000
+
+#
+text 她刚才说了什么????
+
+#
+fc.to_face normal
+fc.say 就这里了。
+
+#
+text 这个破公园依然没变啊。
+
+#
+text 似乎是秋天，风就和我第一次和夏界散步时一样大。
+
+#
+text 某个店铺的卷帘门哐当疯狂地作响着。
+
+#
+text 从高考结束那会开始，过去了多久呢？
+
+#
+text 虽说我是经历过无数循环的已死社畜，但是认知上依然无法脱离……
+
+#
+text 那个刚刚高考完的死宅高中生身份。
+
+#
+text ………
+
+#
+fc.say "对……了，你知道白循衍现在怎么样了吗？"
+
+#
+mc.say "为什么突然提起她？"
+
+#
+fc.say "因为她算是遗憾之一嘛……"
+
+#
+fc.to_face haha
+fc.say "在我设计的剧本里，你俩应该会恋爱的。"
+
+#
+fc.say "靠爱的力量，让你面对改变。"
+
+#
+fc.to_face however
+text 爱的力量什么的好搞笑。
+
+#
+mc.say "白循衍真是好女孩。"
+
+#
+fc.to_face huaji
+fc.say "我把她的高考成绩直接修改成了全省前1000名了哦"
+
+#
+text 哈？那算什么？？我模拟的高中三年……
+
+#
+mc.say 我们市的天黑了……
+
+#
+once mc.face quest
+mc.say 哦对了，有修改我们的成绩吗，我们的成绩是多少？
+
+#
+fc.to_face cold
+fc.say ………你别管了……
+
+#
+mc.say …………
+
+#
+fc.to_face normal
+mc.say 话说已经过去多久了?
+
+#
+fc.say 模拟世界里才过去两个月，啊放到现实才几天。
+
+#
+fc.say ……主要是在处理基地程序的事情 -> wait 1.2 -> fc.sadd ，得尝试控制火情……控制不了就得转移数据。
+
+#
+once mc.face quest
+mc.say 所以才隔了这么久把我重新链接上？
+
+#
+mc.say 我居然……啥也不接触地度过了这么久。
+
+#
+fc.to_face yinchen
+fc.say "对不起……我只是希望你能不用担心这些事情"
+
+#
+mc.say 我还不至于这么脆弱。
+
+#
+fc.to_face yansu
+fc.say 但是！终末之爱服务，我有义务让你幸福。
+
+#
+fc.say 让你再次接驳的时候，能赶在最后的时间里好好生活。
+
+#
+fc.to_face tired
+fc.say 只是我搞砸了……
+
+#
+text ………
+
+#
+fc.say 改变真的很难，你有意识到吗？
+
+#
+fc.say 我不只是在说你，也包括我见过的所有客户们。
+
+#
+mc.say "我知道，我有经验。"
+
+#
+text ………
+
+#
+text 所谓的观看媒体，梦幻泡影的体验，实则完全不会影响自己。
+
+#
+text 本体在一个安全的地方看着，精神假装忘记自己代入故事中……
+
+#
+text 这种事情，自我是不会改变的。
+
+#
+text 不要提看了某本小说，学了某种理论人就会大变样的例子。
+
+#
+text 在脑子里的想法根本什么都算不上！这种事情冲一发就会忘记！
+
+#
+text 真正的改变发生在冲动变成行动的时候，亲身经历才会在自我上留下印记。
+
+#
+text 真实就是事实，实际发生的事情才是真正的自己。
+
+#
+text 所以，只是看着，就会陷入某种茫然中走到终结的永恒里。
+
+#
+text 置身世外，自己永不会改变。即使升学，工作，年满他妈的18岁或者20岁或者30岁，到60岁就更不可能改变了。
+
+#
+text 自己只是学会了如何应对而已，应对老师，考试和工作。
+
+#
+text ……但在内心深处，某个小人依然把这一切当作电视看着。
+
+#
+text 一如一条蛆。
+
+#
+text 它只是自以为自己会喜欢更加多变的世界，自己会羡慕那些人类。
+
+#
+text 自以为已经了解了一切。
+
+#
+text 但过上不同的生活，那到底是怎样的感受，必须亲身体验过才知道……
+
+#
+text ………
+
+#
+fc.to_face however
+fc.say 你就这么喜欢这个恶心寓言吗？
+
+#
+fc.to_face normal
+fc.say 其实大多数人的改变都是被动的，你只是缺少契机而已。
+
+#
+fc.say 生活在世界上，遇到各种事情，不自觉中自己就被塑造了。
+
+#
+mc.say 我真的会遇见到这样的机会吗？
+
+#
+fc.to_face however
+fc.say 你出个门都会下意识回避啊……
+
+#
+fc.to_face haha
+fc.say 但是放心吧，会有的！
+
+#
+mc.say 即使再过一会世界就毁灭了？
+
+#
+fc.say 会的，我们还有时间。
+
+#
+fc.to_face yansu
+fc.say 所以恋爱吧！
 
 #
 set mc.face sad
 mc.say "……，气笑了"
 
 #
-mc.say "哈哈……还是没忘记劝我恋爱啊。"
+mc.say "还是没忘记劝我恋爱啊。"
 
 #
-fc.to_face haha 1.0
-fc.say "我是……冰箱嘛……又灭不了火……这个时候就是要讲这种话。" 15
+fc.say "恋爱有什么不好!我不是在劝你!"
 
 #
-mc.say "……"
+fc.to_face "X"
+fc.say 和我恋爱！
 
 #
-fc.to_face smile 1.0
-fc.say "对……了，你知道白循衍现在怎么样了吗？" 15
+mc.say 好啊。
 
 #
-mc.say "为什么突然提起她？"
+text …………
 
 #
-fc.say "因为…………她也是遗憾之一嘛……" 15
+text ………自然而然地就答应了，也许因为对方是夏界？
 
 #
-fc.to_face haha 1.0
-fc.say "而且……，我也……喜欢她" 14
+fc.to_face hot_oops
+fc.say "……好……好快的回答。"
 
 #
-fc.to_face huaji 1.0
-fc.say "我把她……的成绩直接修改成了全省前1000名了哦" 14
-
-#
-mc.say "是……吗，你真好……，话说现在模拟进度是高考过去多久了？"
-
-#
-fc.to_face soft_smile 1.0
-fc.say "过去……两个月了……" 15
-
-#
-mc.say "这样啊……" -> wait 1.0 -> mc.sadd "可以把我们传送到公寓去吗？"
+text …………
 
 #
 text ………
 
 #
-bg.trans_to "resource/bg/bedroom_day.png" 2.0
+text ……
+
+#
+fc.to_face hot_normal
+fc.say 你……你该不会暗恋我我。
+
+#
+once mc.face however
+mc.say 随便啦！接下来要干嘛？
+
+#
+fc.to_face "X"
+fc.say 干……我，我给接驳的代理对象写了滚床单的技能……
+
+#
+fc.to_face yinchen
+fc.say 还有4i的……
+
+#
+text 我应该不是那个意思……她是那个意思吗？
+
+#
+text 破处的机会……？
+
+#
+once mc.face ganga
+mc.say 是不是进度太快了……
+
+#
+fc.to_face cold
+fc.say 啊……警报响了……
+
+#
 set layer_glitch_effect.z_deep 6000
 layer_glitch_effect.show
-fc.say "你看……马上就过来了……神奇吧" 13
+fc.say 大火已经烧到机房里面……应该没有时间能来一发了
 
 #
-mc.say "和我一起坐到电脑前面。"
+fc.to_face however
+mc.say ………
 
 #
-fc.to_face haha 1.0
-fc.say "好……的" 12
+fc.say 抱歉呢。
+
+#
+fc.say 不过也是活该吧。
+
+#
+fc.say 难以置信，最后一轮模拟居然在最后时刻才开始恋爱。
+
+#
+text 确实……，太晚了。
+
+#
+fc.to_face hot_normal
+fc.say 要要速通恋爱吗？
+
+#
+text 也许应该……去拥抱她。
+
+#
+mc.say "这样啊……" -> wait 1.0 -> mc.sadd "可以把我们传送到公寓去吗？"
+
+#
+fc.say ……没问题的。
+
+#
+bg.trans_to "resource/bg/bedroom_night.png" 2.0
+text ………
+
+#
+text 我又坐到了电脑前面。
+
+#
+mc.say "一起坐吧。"
+
+#
+fc.say "好的" 12
+
+#
+text 我以为她会和我挤一挤，但夏界直接坐到了我身上。
 
 #
 text ………
@@ -7675,10 +8870,10 @@ text ……
 text …
 
 #
-text 我搂住了夏界。
+text ……总之我顺势搂住了她。
 
 #
-fc.to_face oops 0.8
+fc.to_face hot_oops 0.8
 fc.say "啊……"
 
 #
@@ -7686,6 +8881,7 @@ fc.to_face haha 1.0
 text 这是我第一次……主动和别人肢体接触……
 
 #
+fc.to_face hot_normal 0.8
 text 然后公寓就陷入了沉默之中。
 
 #
@@ -7698,7 +8894,7 @@ text ……
 text …
 
 #
-text 我们静静地拥抱着……
+text 静静地拥抱着……
 
 #
 text ………
@@ -7723,6 +8919,9 @@ text …
 
 #
 text 过了多久……现实世界？
+
+#
+text 机柜电源之类的已经开始着火了吗？
 
 #
 text 突然很讨厌自己。
@@ -7755,7 +8954,7 @@ text 一直都是……，讨厌自己，讨厌，讨厌一直对着屏幕，对
 text 好讨厌啊为什么，什么都做不到……
 
 #
-text 我想爱，我只是一个想去爱的脑子……
+text 我想爱，我只是想去爱……
 
 #
 text 想更紧紧地抱住她……
@@ -7773,13 +8972,17 @@ text 想为了省空调钱挤在一起睡觉……
 text 应该……再早一点，早一点察觉到的……
 
 #
+fc.say 你哭了？
+
+#
 fc.say "……嘛别……这样……，至少你能主动搂住我啦……，笑一笑呢？" 11
 
 #
-fc.to_face soft_smile 2.0
+fc.to_face soft_smile
 fc.say "也不用……难过什么的……无非是早一点。" 11
 
 #
+fc.to_face normal
 fc.say "你还……记得我说过的审判吗。" 10
 
 #
@@ -7787,10 +8990,10 @@ set mc.face smile
 mc.say "是啊……现在就是那种时刻呢。" 
 
 #
-fc.say 欸~对的，要在最终的时刻，和我，恋爱吗？ 10
+fc.say 欸~对的，在最终的时刻，和我恋爱 10
 
 #
-fc.say 其实……本来想让你在倒数第二轮能选择结束模拟后，再告诉你真相。 10
+fc.say 其实……本来想让你在最后一次选择结束模拟后，再告诉你真相。 10
 
 #
 fc.say 现在……不得不马上表白了……就像我在ntr白循衍一样，哈哈。 10
@@ -7802,17 +9005,17 @@ text 在生命的尽头依然不断地挣扎。
 text 爱的理由早就已经不重要了。
 
 #
-fc.say 想恋爱……吗？我可以把头发变长点哦，身材……也改一改，然后可以在模拟器里滚床单。 10
+fc.say 想试试别的吗？我可以把头发变长点哦，身材可以也改一改。 10
 
 #
 mc.say "你卡爆了知道吗？"
 
 #
-fc.to_face however 1.0
+fc.to_face however
 fc.say "你很……烦人，你也很卡……哦？" 8
 
 #
-fc.to_face soft_smile 1.0
+fc.to_face soft_smile 
 fc.say "你……知道吗?我说话速度是一个浮点数哦，代表……每秒说多少个字。" 7
 
 #
@@ -7822,12 +9025,15 @@ fc.say "那个数字归零的……时候，我就……死掉了" 6
 mc.say "我去……不早说" 
 
 #
+fc.to_face however
 fc.say "别……说烂梗" 6
 
 #
+fc.to_face smile
 fc.say 至少，反正……我俩……一起死掉，不亏。 6
 
 #
+fc.to_face normal
 fc.say 我说话……是不是还在变慢。 6
 
 #
@@ -7840,12 +9046,13 @@ text ………
 text 我应该主动……
 
 #
-text 我应该大声告诉她……
+text 我应该大声告诉她……由我来说……
 
 #
 mc.say 听好，我爱你，请你和我在一起。
 
 #
+fc.to_face hot_oops
 fc.say 真，真的吗？ 6
 
 #
@@ -7865,10 +9072,11 @@ text 从上辈子开始就喜欢。
 text 我只是沉溺于观看中……忽视了自己的心情。
 
 #
-fc.to_face cry 1.0 // 哭哭哭哭
+fc.to_face haha // 哭哭哭哭
 fc.say 喜欢的人也……喜欢我呢……哈哈哈好开心。 6
 
 #
+fc.to_face liulei
 fc.say "对不起最后还是没绷住……眼泪" 7
 
 #
@@ -7909,8 +9117,7 @@ text 但是可以用当下替代掉永恒，是啊，因为会终结，所以持
 text 如果生命无限，那么就没有什么是拥有永恒的，一切都会改变，消失和变质。
 
 #
-fc.to_face cry_smile 2.0
-fc.say 真是，太幸运了吧。能在这种时候。 5
+fc.say 其实，很幸运，能在这种时候。 5
 
 #
 mc.say 是啊，真的很幸运。
@@ -7926,41 +9133,52 @@ mc.say "你直接说就好了……"
 
 #
 fc.to_face haha 1.0
+env_effect.set "resource/env_effect/base_noise2.ogg" fade_in 2.0
 fc.say "你说话……速度也在变慢呢。放心……我会在……这个程序结束后……把基地和你的脑子……炸上天" 8
 
 #
-fc.say "所以……放心听我说" 7
+fc.say "所以……放心而且认真地听我说" 7
 
 #
+fc.to_face hot_normal
 fc.say "艾可思，我爱你……" 5
 
 #
-mc.say "我爱你……"
+mc.say "我也爱你……"
 
 #
+fc.to_face X
+fc.say 别打岔……现在是我在说……
+
+#
+fc.to_face hot_normal
 fc.say "我爱你……" 4
 
 #
 mc.say "我爱你…"
 
 #
-fc.to_face cry_smile 2.0
+text ………
+
+#
+fc.to_face cry 1.0
 fc.say "我爱你…" 3
 
 #
 fc.say "我爱你" 2
 
 #
-mc.say "我也爱你" 
-
-#
 fc.say "我爱你" 1.5
 
 #
-character_ls.clear
 text …………
 
 #
+fc.fade_out 1.0
+text …………
+
+#
+bg.trans_to "" 2.0
 text ………
 
 #
@@ -7970,14 +9188,7 @@ text ……
 text …
 
 #
-bg.trans_to "" 2.0
-text 故事结束了。
-
-#
-text 对你来说，故事就这样结束了。
-
-#
-text ……
+text 结束了。
 
 #
 text 但是
@@ -8008,9 +9219,6 @@ text ……
 
 #
 text …
-
-#
-text 关闭这个窗口吧？
 
 #
 text ""

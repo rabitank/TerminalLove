@@ -13,21 +13,21 @@ if not exist "%ENGINE_DIR%\Cargo.toml" (
     exit /b 1
 )
 
-echo [BUILD] Building release...
+echo [BUILD] Building debug...
 cd /d "%ENGINE_DIR%"
-call cargo build --release -p tmj_terminal -p tmj_wgpu
+call cargo build  -p tmj_terminal
 if errorlevel 1 (
     echo [ERROR] Build failed
     exit /b %errorlevel%
 )
 
-set "RELEASE_DIR=%ENGINE_DIR%\target\release"
+set "RELEASE_DIR=%ENGINE_DIR%\target\debug"
 set "OK=0"
 
 if exist "%RELEASE_DIR%\tmj_terminal.exe" (
-    copy /y "%RELEASE_DIR%\tmj_terminal.exe" "%SCRIPT_DIR%\tmj.exe" > nul
+    copy /y "%RELEASE_DIR%\tmj_terminal.exe" "%SCRIPT_DIR%\tmj_tdebug.exe" > nul
     if not errorlevel 1 (
-        echo [OK] tmj_terminal.exe -^> tmj.exe
+        echo [OK] tmj_terminal.exe -^> tmj_tdebug.exe
         set "OK=1"
     ) else (
         echo [ERROR] Failed to copy tmj_terminal.exe
@@ -36,21 +36,5 @@ if exist "%RELEASE_DIR%\tmj_terminal.exe" (
     echo [ERROR] tmj_terminal.exe not found
 )
 
-if exist "%RELEASE_DIR%\tmj_wgpu.exe" (
-    copy /y "%RELEASE_DIR%\tmj_wgpu.exe" "%SCRIPT_DIR%\tmj_gui.exe" > nul
-    if not errorlevel 1 (
-        echo [OK] tmj_wgpu.exe -^> tmj_gui.exe
-        set "OK=1"
-    ) else (
-        echo [ERROR] Failed to copy tmj_wgpu.exe
-    )
-) else (
-    echo [ERROR] tmj_wgpu.exe not found
-)
-
-if "%OK%"=="0" (
-    echo [ERROR] No artifacts were copied
-    exit /b 1
-)
 
 echo [DONE] Artifacts output to: %SCRIPT_DIR%

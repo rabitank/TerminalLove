@@ -20,6 +20,11 @@ tired="resource/fc/fc_f_tired.png"
 yansu="resource/fc/fc_f_yansu.png"
 byzk="resource/fc/fc_f_byzk.png"
 yinchen="resource/fc/fc_f_yinchen.png"
+X="resource/fc/fc_f_X.png"
+liulei="resource/fc/fc_f_liulei.png"
+hot_normal="resource/fc/fc_f_hot_normal.png"
+hot_oops="resource/fc/fc_f_hot_oops.png"
+angry="resource/fc/fc_f_angry.png"
 
 [stands]
 cold="resource/fc/fc_cold.png"
@@ -39,5 +44,10 @@ tired="resource/fc/fc_tired.png"
 yansu="resource/fc/fc_yansu.png"
 byzk="resource/fc/fc_byzk.png"
 yinchen="resource/fc/fc_yinchen.png"
+X="resource/fc/fc_X.png"
+liulei="resource/fc/fc_liulei.png"
+hot_normal="resource/fc/fc_hot_normal.png"
+hot_oops="resource/fc/fc_hot_oops.png"
+angry="resource/fc/fc_angry.png"
 
 [voice]

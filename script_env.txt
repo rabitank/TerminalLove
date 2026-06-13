@@ -84,6 +84,7 @@
   ────────────────────────────────────────────────────────────────────────
   type     BGM                → bgm                 # 背景音乐全局对象
   member   M_SOURCE           → m_source            # 当前 BGM 资源路径
+  member   M_VOLUME           → m_volume            # 调用 set 时设置的源音量
   function SET                → set                 # 设置并播放 BGM
   function STOP               → stop                # 停止 BGM（可淡出）
 
@@ -106,6 +107,7 @@
   ────────────────────────────────────────────────────────────────────────
   type     ENV_EFFECT         → env_effect          # 环境音效全局对象
   member   M_SOURCE           → m_source            # 当前环境音资源路径
+  member   M_VOLUME           → m_volume            # 调用 set 时设置的源音量
   function SET                → set                 # 设置并播放环境音
   function STOP               → stop                # 停止环境音（可淡出）
 

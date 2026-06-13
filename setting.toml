@@ -8,6 +8,7 @@ default_bg_img = ""
 default_face_img = "resource/default_face_img.png"
 preprogress_script = ["resource/terminal_love.fs"]
 max_history_ls = 60
+mainmenu_title_file = "resource/title.txt"
 mainmenu_default_bg_img = "resource/main_menu_bg.png"
 mainmenu_default_bgm = "resource/bgm/Bit Space (loopable).mp3"
 mainmenu_session_bg_map = []
