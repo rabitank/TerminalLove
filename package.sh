@@ -9,8 +9,15 @@ PACKAGE_NAME="TerminalLove-v${VERSION}${SUFFIX}"
 STAGING="staging/${PACKAGE_NAME}"
 
 if [ "$ENGINE_VER" = "latest" ]; then
-    ENGINE_TAG=$(curl -sL https://api.github.com/repos/rabitank/TermAVG/releases/latest | grep -o '"tag_name": *"[^"]*"' | grep -o '"[^"]*"$' | tr -d '"')
+    echo "==> Querying latest TermAVG release..."
+    API_RESP=$(curl -fSL https://api.github.com/repos/rabitank/TermAVG/releases/latest)
+    ENGINE_TAG=$(echo "$API_RESP" | grep -o '"tag_name": *"[^"]*"' | grep -o '"[^"]*"$' | tr -d '"')
+    if [ -z "$ENGINE_TAG" ]; then
+        echo "ERROR: failed to parse latest TermAVG release tag" >&2
+        exit 1
+    fi
     ENGINE_VER="${ENGINE_TAG#v}"
+    echo "==> TermAVG latest: ${ENGINE_TAG}"
 else
     ENGINE_VER="${ENGINE_VER#v}"
 fi
@@ -21,9 +28,11 @@ TMPDIR="engine_dl"
 rm -rf "$TMPDIR"
 mkdir -p "${TMPDIR}/tmj" "${TMPDIR}/wgpu"
 
-curl -sL "${BASE_URL}/tmj-x86_64-unknown-linux-gnu-v${ENGINE_VER}.zip" -o "${TMPDIR}/tmj.zip"
-curl -sL "${BASE_URL}/tmj-wgpu-x86_64-unknown-linux-gnu-v${ENGINE_VER}.zip" -o "${TMPDIR}/wgpu.zip"
+echo "==> Downloading engine binaries (v${ENGINE_VER})..."
+curl -fSL "${BASE_URL}/tmj-x86_64-unknown-linux-gnu-v${ENGINE_VER}.zip" -o "${TMPDIR}/tmj.zip"
+curl -fSL "${BASE_URL}/tmj-wgpu-x86_64-unknown-linux-gnu-v${ENGINE_VER}.zip" -o "${TMPDIR}/wgpu.zip"
 
+echo "==> Extracting..."
 unzip -qo "${TMPDIR}/tmj.zip" -d "${TMPDIR}/tmj"
 unzip -qo "${TMPDIR}/wgpu.zip" -d "${TMPDIR}/wgpu"
 
@@ -32,6 +41,7 @@ cp "${TMPDIR}/wgpu/tmj_wgpu" tmj_gui
 cp "${TMPDIR}/tmj/LICENSE" engine_license.txt
 rm -rf "$TMPDIR"
 
+echo "==> Assembling ${PACKAGE_NAME}..."
 rm -rf staging
 mkdir -p "${STAGING}/resource" "${STAGING}/save"
 
@@ -58,4 +68,4 @@ cd ..
 rm -rf staging
 rm -f tmj tmj_gui engine_license.txt
 
-echo "Built target/artifacts/${PACKAGE_NAME}.zip"
+echo "==> Built target/artifacts/${PACKAGE_NAME}.zip"
