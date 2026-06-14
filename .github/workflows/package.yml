@@ -1,0 +1,48 @@
+name: Package Game
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  package-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package
+        shell: pwsh
+        run: |
+          $v = '${{ github.ref_name }}' -replace '^v', ''
+          ./package.ps1 -Version $v
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: target/artifacts/*.zip
+
+  package-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package
+        run: bash package.sh "${GITHUB_REF_NAME#v}" -linux
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux
+          path: target/artifacts/*.zip
+
+  draft:
+    needs: [package-windows, package-linux]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+      - name: Create draft release
+        uses: softprops/action-gh-release@v3
+        with:
+          draft: true
+          name: TerminalLove ${{ github.ref_name }}
+          files: artifacts/**/*.zip
