@@ -46,6 +46,10 @@ rm -rf staging
 mkdir -p "${STAGING}/resource" "${STAGING}/save"
 
 cp tmj tmj_gui "${STAGING}/"
+chmod +x "${STAGING}/tmj" "${STAGING}/tmj_gui"
+
+cp run.sh "${STAGING}/"
+chmod +x "${STAGING}/run.sh"
 cp setting.toml layout.toml game_setting.toml "${STAGING}/"
 cp README.md "${STAGING}/"
 cp engine_license.txt "${STAGING}/LICENSE"

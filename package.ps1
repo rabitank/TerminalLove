@@ -60,6 +60,8 @@ New-Item -ItemType Directory -Force -Path "$Staging/save" | Out-Null
 Copy-Item "tmj.exe" $Staging
 Copy-Item "tmj_gui.exe" $Staging
 
+Copy-Item "run.bat" $Staging
+
 Copy-Item "setting.toml" $Staging
 Copy-Item "layout.toml" $Staging
 Copy-Item "game_setting.toml" $Staging
