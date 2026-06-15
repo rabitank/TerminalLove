@@ -12,3 +12,4 @@ mainmenu_title_file = "resource/title.txt"
 mainmenu_default_bg_img = "resource/main_menu_bg.png"
 mainmenu_default_bgm = "resource/bgm/Bit Space (loopable).mp3"
 mainmenu_session_bg_map = []
+window_title = "TerminalLove"
