@@ -7207,26 +7207,30 @@ once mc.face quest
 mc.say 还有另一个？他如何了。
 
 #
+fc.to_face byzk
 fc.say 我花了很多时间来学习如何操作模拟程序。
 
 #
+fc.to_face normal
 fc.say 正好那个人很好懂，他生前的希望就是做游戏，但是自身行动力不够。
 
 #
 fc.say 模拟环境里循环这么久只是因为他的环境很难让他迈出第一步。
 
 #
+fc.to_face smile
 fc.say 我简单调整了一次模拟策略后，下一轮模拟他就不带遗憾地选择结束了。
 
 #
 mc.say 只剩我了，我还真是倔强。
 
 #
-once fc.face however
+fc.to_face however
 fc.say 谁叫你抱住那套搞笑理论不放手，居然在那么小的时候就开始这样想。
 
 #
 once mc.face yansu
+fc.to_face normal
 mc.say 虽然你一直在蛐蛐我的想法并自认为看透了我，但我并不觉得有什么问题。
 
 #
@@ -7234,18 +7238,25 @@ mc.say 终末之爱不就是这种东西吗，正和我的理论，给予人们�
 
 #
 once mc.face sad
-mc.say 但是……生前的我一定是怀着后悔与疑惑的心情吧……
+mc.say 但是……生前的我一定是后悔着……
 
 #
-mc.say 旁观这个世界太久了，却突然意识到自己在渴求着能真正让自己满足的幸福，所以才订购了终末之爱。
+text 旁观这个世界太久了，却突然意识到自己在渴求着能真正让自己满足的幸福，所以才订购了终末之爱。
+
+#
+text 难道不是吗？想不出有别的原因。
+
+#
+text 但是终末之爱这种存在……简直是作为一个观众的至高体验。
 
 #
 mc.say 无论是真实还是幻影，只要忘记来路就能真正地沉浸。
 
 #
-text 简直是作为一个观众的至高体验。
+text ………
 
 #
+fc.to_face yinchen
 fc.say "……"
 
 #
@@ -7274,15 +7285,18 @@ fc.say 第一次参与到模拟世界中，就好像真的活过来一样。
 fc.say 能和人真正的交谈，打闹，上下学，苦恼各种小事，结交朋友。
 
 #
+fc.to_face haha
 fc.say 能感受到风吹拂身体的感觉，能被别人的话语打动，我也不再把模拟世界的npc看成一段数据。
 
 #
+fc.to_face cold
 fc.say 上一次体会到这些东西已经是很久很久以前了……
 
 #
 fc.say 就算活着的时候也没有终末之爱里开心。
 
 #
+fc.to_face sad
 fc.say 虽然你可能不信，但是我真的也喜欢白循衍，希望你两个能在一起。
 
 #
@@ -7294,19 +7308,23 @@ mc.say 这话感觉好怪……
 
 #
 // bgm.set "resource/bgm/shuzui.mp3" todo
+fc.to_face yansu
 fc.say 总之！我忍受不了一直旁观了，想改变，想做点什么。
 
 #
 fc.say 不再以躲在程序默默操纵世界的方式，而是亲身参与。
 
 #
+fc.to_face normal
 text ………
+
+#
+text 不只是这样，还有没弄清楚的地方。
 
 #
 mc.say 等一下，我有几个问题。
 
 #
-fc.to_face yansu
 fc.say 事到如今没什么好隐瞒了，直接问我吧。
 
 #
@@ -7337,34 +7355,37 @@ text 果然知道真相之后，发现自己的体验过的感情是被人造出
 mc.say 白循衍……真的是很好的人。
 
 #
+fc.to_face cold
 fc.say 是啊……真正进入世界后根本不能把她当作我创造的数据来看呢。
 
 #
 text ………
 
 #
-mc.say 还有一个问题，你并不是这轮模拟才进入到世界的吧。
+mc.say 还有一个问题，你并不是这轮模拟才进入到世界的吧。 -> wait 1.0 -> fc.to_face yinchen
 
 #
+set fc.face yinchen
 text 光从她说的学生体验会让人以为她说的是这一次模拟。可夏界没有明说自己何时进入的世界。
 
 #
 text 我好像隐约想起，那次昏迷时……
 
 #
-fc.to_face yinchen
 fc.say 你想起来了吗？
 
 #
 fc.say "…………"
 
 #
+fc.to_face however
 fc.say "………"
 
 #
 fc.say "虽然现在再说也没有意义……但我说过不再保留，那就告诉你吧。"
 
 #
+fc.to_face yansu
 fc.say 其实第一次参与到你的模拟里，是在上一轮。我加入时你已经模拟到毕业进入职场了。
 
 #
@@ -7381,12 +7402,17 @@ fc.say 所以我给自己安排了你公司附近学校的学生身份，体验�
 fc.say 顺便观察你的状态。
 
 #
-fc.say 你一开始的状态真的很糟糕。大概是孤单太久了，即使只是每天和你在地铁上相遇，看起来你也变得开心了，不过还是没有勇气和我搭话。
+fc.to_face cold
+fc.say 你一开始的状态真的很糟糕。
+
+#
+fc.say 大概是孤单太久了，即使只是每天和你在地铁上相遇，看起来你也变得开心了，不过还是没有勇气和我搭话。
 
 #
 mc.say 后来呢。
 
 #
+fc.to_face yinchen
 fc.say 后来啊……我因为维护基地的事情需要离开，在模拟世界里大概是两年左右吧。
 
 #
@@ -7396,6 +7422,7 @@ fc.say 回来时发现你已经死掉了……
 mc.say 我怎么就死掉了？？
 
 #
+fc.to_face yansu
 fc.say 不知道，最有可能的是自杀。
 
 #
@@ -7446,32 +7473,44 @@ text ……
 text …
 
 #
+fc.to_face hot_normal
 fc.say 咳咳……
 
 #
-fc.to_face tired
 fc.say 接下来你期望做什么？
 
 #
 mc.say 回去的话，要再次消除记忆吗？
 
 #
-fc.say 看你的想法。而且，虽然说了可以选择再次进入终末之爱，但是不建议你回去。
+fc.to_face tired
+fc.say 看你的想法。而且，我说了不建议你回去。
 
 #
 text ………我其实想和白循衍道歉来着……
 
 #
-fc.say 考虑服务器情况，继续下去会比较麻烦。
+fc.say 当然仅仅是从技术上考虑服务器情况……继续下去会比较麻烦。
 
 #
 mc.say ……那就这样吧。
 
 #
+fc.to_face normal
 fc.say 欸?决定好了吗？
 
 #
 mc.say 我想，先熟悉下现实世界。
+
+#
+wait 0.2 -> fc.to_face haha
+fc.say ……没问题，我会把知道的都告诉你的。
+
+#
+text ………
+
+#
+text ……
 
 #
 fc.fade_out
@@ -7683,9 +7722,27 @@ text ……
 text …
 
 #
+text 就这样过去了一些日子。
+
+#
+text 因为模拟中断以来一直都有硬件在坏掉，维护基地的工作相当多。
+
+#
+text 所以我也要得帮忙。
+
+#
+text 没事的时候我会接入摄像头看看那座巨大城市。
+
+#
+text 直到某天……
+
+#
 bgm.set "resource/bgm/Bit Space (loopable).mp3" fade_in 2.0 0.8
 bg.trans_to "resource/bg/ghost_big_city.png"
-text 之后，我再次切换到了信号塔上望着巨大城市的那个摄像头。
+text ………
+
+#
+text ……确实非常一柱擎天…………
 
 #
 text 果然还是很好奇里面的情况。
@@ -7785,9 +7842,19 @@ fc.say 做好准备，要接入了哦。
 #
 text "……"
 
+
 #
 layer_bytes_stream_effect.show
 text 链接上了。
+
+#
+text ………
+
+#
+text 不断有网络数据包从链接中涌出。那是夏界的测试请求的响应。
+
+#
+text 真的，正常链接上了。
 
 #
 fc.to_face oops
@@ -7804,6 +7871,9 @@ mc.say 你这么说感觉接下来就要出问题了……
 #
 fc.to_face smile
 fc.say 那就……尝尝试试试找过去吧。
+
+#
+text 夏界又开始操作了。
 
 #
 bgm.stop
@@ -8659,6 +8729,7 @@ fc.say 改变真的很难，你有意识到吗？
 fc.say 我不只是在说你，也包括我见过的所有客户们。
 
 #
+set mc.face normal
 mc.say "我知道，我有经验。"
 
 #
@@ -8724,6 +8795,7 @@ fc.say 其实大多数人的改变都是被动的，你只是缺少契机而已�
 fc.say 生活在世界上，遇到各种事情，不自觉中自己就被塑造了。
 
 #
+once mc.face quest 
 mc.say 我真的会遇见到这样的机会吗？
 
 #
@@ -8745,7 +8817,7 @@ fc.to_face yansu
 fc.say 所以恋爱吧！
 
 #
-set mc.face sad
+set mc.face however
 mc.say "……，气笑了"
 
 #
@@ -8759,9 +8831,11 @@ fc.to_face "X"
 fc.say 和我恋爱！
 
 #
+set mc.face smile
 mc.say 好啊。
 
 #
+set mc.face normal
 text …………
 
 #
@@ -8852,6 +8926,7 @@ text ………
 text 我又坐到了电脑前面。
 
 #
+once mc.face smile
 mc.say "一起坐吧。"
 
 #
@@ -8990,12 +9065,14 @@ set mc.face smile
 mc.say "是啊……现在就是那种时刻呢。" 
 
 #
+fc.to_face hot_normal
 fc.say 欸~对的，在最终的时刻，和我恋爱 10
 
 #
 fc.say 其实……本来想让你在最后一次选择结束模拟后，再告诉你真相。 10
 
 #
+fc.to_face haha
 fc.say 现在……不得不马上表白了……就像我在ntr白循衍一样，哈哈。 10
 
 #
@@ -9005,13 +9082,17 @@ text 在生命的尽头依然不断地挣扎。
 text 爱的理由早就已经不重要了。
 
 #
+fc.to_face smile
 fc.say 想试试别的吗？我可以把头发变长点哦，身材可以也改一改。 10
 
 #
-mc.say "你卡爆了知道吗？"
+text 说话好慢……
 
 #
 fc.to_face however
+mc.say "你卡爆了知道吗？"
+
+#
 fc.say "你很……烦人，你也很卡……哦？" 8
 
 #
@@ -9033,7 +9114,7 @@ fc.to_face smile
 fc.say 至少，反正……我俩……一起死掉，不亏。 6
 
 #
-fc.to_face normal
+fc.to_face hot_normal
 fc.say 我说话……是不是还在变慢。 6
 
 #
@@ -9087,9 +9168,10 @@ text 冰箱赛马娘……可爱……
 
 #
 set mc.face smile
-mc.say 我会和你在一起，直到所有东西都崩坏。
+mc.say 直到最后我们都会在一起。
 
 #
+fc.to_face hot_normal
 text 这就是，爱吗？好奇妙。
 
 #
@@ -9126,6 +9208,7 @@ mc.say 是啊，真的很幸运。
 text 尽管仓促……至少……在终末之刻能够去爱。
 
 #
+fc.to_face X
 fc.say "艾可思……我也……想说我爱你" 6
 
 #
@@ -9171,7 +9254,19 @@ fc.say "我爱你" 2
 fc.say "我爱你" 1.5
 
 #
+fc.say "呜呜...唔呜啊啊啊啊啊.......唔啊啊啊啊啊" 1.5
+
+#
+mc.say "是了，我也爱你……"
+
+#
+text 所以就这样。
+
+#
 text …………
+
+#
+text ……
 
 #
 fc.fade_out 1.0
@@ -9195,6 +9290,12 @@ text 但是
 
 #
 text 对我来说，故事变成了亲历的永恒。
+
+#
+text ………
+
+#
+text "感谢游玩《terminal-love/终末之爱》，游戏到此结束"
 
 #
 text …………

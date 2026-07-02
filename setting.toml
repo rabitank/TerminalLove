@@ -1,4 +1,4 @@
-resolution = [240, 67]
+resolution = [239, 67]
 is_force_skipable = false
 save_dir = "save"
 gallery_dir = "resource/gallery"
@@ -9,7 +9,7 @@ default_face_img = "resource/default_face_img.png"
 preprogress_script = ["resource/terminal_love.fs"]
 max_history_ls = 60
 mainmenu_title_file = "resource/title.txt"
-mainmenu_default_bg_img = "resource/main_menu_bg.png"
+mainmenu_default_bg_img = "resource/cg/title.png"
 mainmenu_default_bgm = "resource/bgm/Bit Space (loopable).mp3"
 mainmenu_session_bg_map = []
 window_title = "TerminalLove"
