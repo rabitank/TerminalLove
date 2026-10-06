@@ -1,0 +1,10 @@
+_current_face = "normal"
+display = "图书馆"
+
+[faces]
+normal = "resource/tushuguan/tushuguan.png"
+
+[stands]
+
+
+[voice]

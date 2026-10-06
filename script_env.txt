@@ -17,6 +17,7 @@
   member   _VOICES            → _voices             # 语音表
   member   DISPLAY            → display             # 角色显示名
   member   FACE               → face                # 当前表情名
+  member   M_SHOW_FACE        → m_show_face         # say/sadd 是否显示头像框
   function DOWN               → down                # 添加向下偏移动画
   function FADE_IN            → fade_in             # 入场：自右向左滑入 8 格并淡入到场上位置
   function FADE_OUT           → fade_out            # 退场：淡出并从场上列表移除，其余角色平滑移位

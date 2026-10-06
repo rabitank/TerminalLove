@@ -1,0 +1,28 @@
+_current_face = "normal"
+display = "学妹"
+
+[faces]
+gaxiao = "resource/xm/xm_f_gaxiao.png"
+gaxiao_2 = "resource/xm/xm_f_gaxiao_2.png"
+gaxiao_3 = "resource/xm/xm_f_gaxiao_3.png"
+nervous = "resource/xm/xm_f_nervous.png"
+normal = "resource/xm/xm_f_normal.png"
+smile = "resource/xm/xm_f_smile.png"
+xd = "resource/xm/xm_f_xd.png"
+yansu = "resource/xm/xm_f_yansu.png"
+oops = "resource/xm/xm_f_oops.png"
+
+
+[stands]
+gaxiao = "resource/xm/xm_gaxiao.png"
+gaxiao_2 = "resource/xm/xm_gaxiao_2.png"
+gaxiao_3 = "resource/xm/xm_gaxiao_3.png"
+nervous = "resource/xm/xm_nervous.png"
+normal = "resource/xm/xm_normal.png"
+smile = "resource/xm/xm_smile.png"
+xd = "resource/xm/xm_xd.png"
+yansu = "resource/xm/xm_yansu.png"
+oops = "resource/xm/xm_oops.png"
+
+
+[voice]
