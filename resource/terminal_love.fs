@@ -993,7 +993,7 @@ text ……
 text 大概是高二学期末的一天。
 
 #
-fc.fade_out
+fc.fade_in
 set fc.face normal
 fc.say 不要吃完饭就坐下来啊，去压马路吧？
 
